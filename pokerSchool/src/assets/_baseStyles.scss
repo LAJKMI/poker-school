@@ -1,0 +1,18 @@
+$primaryBackground: #121212;
+$practiceBtnColor: linear-gradient(330deg, rgba(185, 62, 9, 1) 0%, rgba(215, 81, 32, 1) 49%, rgba(243, 101, 49, 1) 100%);
+$pickVariantBtnColor: linear-gradient(330deg, rgba(185, 47, 47, 1) 0%, rgba(206, 56, 56, 1) 49%, rgba(227, 64, 64, 1) 100%);
+$learnBtnColor: linear-gradient(330deg, rgba(49, 150, 26, 1) 0%, rgba(49, 144, 5, 1) 49%, rgba(80, 155, 33, 1) 100%);
+$pokerDefoultTextColor: #F4F4F4;
+$pokerDefoultCardColor: #1F1F1F;
+
+@mixin button($bckColor, $letterSpacing: 0rem) {
+    background: $bckColor;
+    border: none;
+    padding: .625rem 1.25rem;
+    font-size: 1.25rem;
+    color: #fff;
+    box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+    margin: 6.25rem;
+    border-radius: .375rem;
+    letter-spacing: $letterSpacing;
+}

@@ -1,0 +1,23 @@
+#pickVariant {
+  background: linear-gradient(330deg, rgb(185, 47, 47) 0%, rgb(206, 56, 56) 49%, rgb(227, 64, 64) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  margin: 6.25rem;
+  border-radius: 0.375rem;
+  letter-spacing: 0.05rem;
+}
+
+#practice {
+  background: linear-gradient(330deg, rgb(185, 62, 9) 0%, rgb(215, 81, 32) 49%, rgb(243, 101, 49) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  margin: 6.25rem;
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+}/*# sourceMappingURL=nvaComponent.css.map */

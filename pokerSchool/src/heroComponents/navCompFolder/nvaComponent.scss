@@ -1,0 +1,10 @@
+@use '../../assets/baseStyles' as *;
+
+
+#pickVariant {
+    @include button($pickVariantBtnColor, $letterSpacing: 0.05rem)
+}
+
+#practice {
+    @include button($practiceBtnColor)
+}
