@@ -1,10 +1,79 @@
 @use '../../assets/baseStyles' as *;
 
 
-#pickVariant {
-    @include button($pickVariantBtnColor, $letterSpacing: 0.05rem)
+
+/* normal nav */
+
+#normalNav {
+    @include flexCenter(row);
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+
+    img {
+        width: 3.125rem;
+    }
+
+    #burgerSvg {
+        width: 1.5625rem;
+        color: $pokerDefoultTextColor;
+    }
 }
 
-#practice {
-    @include button($practiceBtnColor)
+
+/* burgerMenu nav*/
+
+#burgerMenu {
+    background-color: $secondaryBackground;
+    height: 40dvh;
+    @include flexCenter(row-reverse);
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1.25rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+
+    #xSvg {
+        width: 1.5625rem;
+        color: $pokerDefoultTextColor;
+    }
+
+    img {
+        width: 5rem;
+        margin-bottom: .625rem;
+    }
+
+    ul {
+        list-style: none;
+
+
+
+        li {
+            margin-right: .625rem;
+            padding-top: 1.25rem;
+            font-size: 1rem;
+
+            a {
+                color: $pokerDefoultTextColor;
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    #practiceBtn {
+        @include button($practiceBtnColor);
+        font-size: 1rem;
+        padding: .3125rem .625rem;
+        border-radius: .1875rem;
+
+    }
 }

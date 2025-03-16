@@ -1,0 +1,39 @@
+@use '../../assets/baseStyles' as *;
+
+
+#hero {
+    background-color: gray;
+    height: 50dvh;
+    @include flexCenter(row);
+    text-align: center;
+    color: $pokerDefoultTextColor;
+    background-image: url('../../assets/pictures/heroBcg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    #heroTextBox {
+        @include flexCenter(column);
+        gap: .625rem;
+        background-color: #ffffff00;
+        backdrop-filter: blur(.3125rem);
+        padding: 1.25rem .625rem;
+        box-shadow: 0 0 .1875rem rgba($color: #A0A0A0, $alpha: 1.0);
+
+
+
+        #pickAVariant {
+            @include button($pickVariantBtnColor, .8px);
+            font-size: .875rem;
+        }
+
+        #completeBegginer {
+            @include button(transparent, .8px);
+            border: .0625rem solid #B92F2F;
+            box-shadow: none;
+            font-size: .875rem;
+        }
+    }
+
+
+}

@@ -1,11 +1,13 @@
-import Nav from './heroComponents/navCompFolder/NavComponent'
+import MobileNav from './heroComponents/navCompFolder/MobileNavComponent'
 import './App.css'
+import MobileHeroComponent from './heroComponents/heroPageCompFolder/MobileHeroComponent'
 
 function App() {
 
   return (
     <>
-      <Nav />
+      <MobileNav />
+      <MobileHeroComponent />
     </>
   )
 }
