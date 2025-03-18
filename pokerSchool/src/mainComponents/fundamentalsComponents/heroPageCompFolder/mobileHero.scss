@@ -1,4 +1,4 @@
-@use '../../assets/baseStyles' as *;
+@use '../../../assets/baseStyles' as *;
 
 
 #hero {
@@ -7,7 +7,7 @@
     @include flexCenter(row);
     text-align: center;
     color: $pokerDefoultTextColor;
-    background-image: url('../../assets/pictures/heroBcg.png');
+    background-image: url('../../../assets/pictures/heroBcg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,6 +20,10 @@
         padding: 1.25rem .625rem;
         box-shadow: 0 0 .1875rem rgba($color: #A0A0A0, $alpha: 1.0);
 
+        h1,
+        h2 {
+            font-weight: bold
+        }
 
 
         #pickAVariant {

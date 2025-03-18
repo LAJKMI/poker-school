@@ -1,0 +1,19 @@
+@import '../../../assets/baseStyles';
+
+h2 {
+    color: $pokerDefoultTextColor;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#handRankings {
+    padding: 0 10px;
+    color: $pokerSecondaryTextColor;
+
+    .hands {
+        margin-bottom: 30px;
+    }
+
+
+}

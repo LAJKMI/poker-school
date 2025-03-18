@@ -7,7 +7,7 @@
   align-items: center;
   text-align: center;
   color: #F4F4F4;
-  background-image: url("../../assets/pictures/heroBcg.png");
+  background-image: url("../../../assets/pictures/heroBcg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,6 +23,10 @@
           backdrop-filter: blur(0.3125rem);
   padding: 1.25rem 0.625rem;
   box-shadow: 0 0 0.1875rem #a0a0a0;
+}
+#hero #heroTextBox h1,
+#hero #heroTextBox h2 {
+  font-weight: bold;
 }
 #hero #heroTextBox #pickAVariant {
   background: linear-gradient(330deg, rgb(185, 47, 47) 0%, rgb(206, 56, 56) 49%, rgb(227, 64, 64) 100%);

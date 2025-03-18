@@ -1,13 +1,13 @@
 import MobileNav from './headerComponents/navCompFolder/MobileNavComponent'
 import './App.css'
-import MobileHeroComponent from './heroComponents/heroPageCompFolder/MobileHeroComponent'
+import MainContent from './mainComponents/MainContent'
 
 function App() {
 
   return (
     <>
       <MobileNav />
-      <MobileHeroComponent />
+      <MainContent />
     </>
   )
 }
