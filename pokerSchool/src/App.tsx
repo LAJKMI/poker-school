@@ -1,4 +1,4 @@
-import MobileNav from './heroComponents/navCompFolder/MobileNavComponent'
+import MobileNav from './headerComponents/navCompFolder/MobileNavComponent'
 import './App.css'
 import MobileHeroComponent from './heroComponents/heroPageCompFolder/MobileHeroComponent'
 
