@@ -7,10 +7,10 @@
     font-family: "Bitter", serif;
     font-weight: normal;
     color: #F4F4F4;
+    line-height: 1.5625rem;
 }
 
 body {
     background-color: #121212;
     height: 625rem;
-    padding: 0rem .625rem;
 }

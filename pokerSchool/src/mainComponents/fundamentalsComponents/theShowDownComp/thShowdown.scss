@@ -1,0 +1,10 @@
+@use '../../../assets/baseStyles' as *;
+
+.theShowDown {
+    padding: $sectionPadding;
+
+    ul {
+        @include list();
+        margin-bottom: 1.875rem;
+    }
+}

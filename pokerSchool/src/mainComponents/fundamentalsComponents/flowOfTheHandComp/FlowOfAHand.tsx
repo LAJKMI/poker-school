@@ -1,7 +1,7 @@
 import Card from "../../../assets/generalComponents/cardComp/Card";
 import CommonMistake from "../../../assets/generalComponents/commonMistake/CommonMistake";
 import SectionHeading from "../../../assets/generalComponents/sectionHeadingComp/SectionHeading";
-
+import './flowOfAHand.css'
 const cardColor = '#202127'
 
 export default function FlowOfAHand() {

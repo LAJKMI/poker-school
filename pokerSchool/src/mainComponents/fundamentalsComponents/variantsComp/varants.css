@@ -1,0 +1,9 @@
+.variants {
+  height: 50dvh;
+  border-top: 0.0625rem solid #F4F4F4;
+  border-bottom: 0.0625rem solid #F4F4F4;
+  padding: 0px 10px;
+}
+.variants #variantsHeading {
+  margin: 20px 0px 0px 0px;
+}/*# sourceMappingURL=varants.css.map */

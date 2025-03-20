@@ -1,4 +1,8 @@
+@use '../../../assets/baseStyles' as *;
+
 .BettingRules {
+    padding: $sectionPadding;
+
     #rules {
         margin-bottom: 1.875rem;
     }

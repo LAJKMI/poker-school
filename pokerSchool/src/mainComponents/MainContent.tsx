@@ -3,6 +3,10 @@ import FlowOfAHand from "./fundamentalsComponents/flowOfTheHandComp/FlowOfAHand"
 import HandRankings from "./fundamentalsComponents/handRankingsComp/HandRankings";
 import MobileHeroComponent from "./fundamentalsComponents/heroPageCompFolder/MobileHeroComponent";
 import RoleOfADealer from "./fundamentalsComponents/roleOfADealerComp/RoleOfADealer";
+import SpecialSituations from "./fundamentalsComponents/specialSituationsComp/SpecialSituations";
+import TheShowDown from "./fundamentalsComponents/theShowDownComp/TheShowDown";
+import RotatingSuits from "./fundamentalsComponents/variantsComp/fallingSuits/RotatingSuits";
+import Variants from "./fundamentalsComponents/variantsComp/Variants";
 
 export default function MainContent() {
     return (
@@ -12,6 +16,10 @@ export default function MainContent() {
             <BettingRules />
             <FlowOfAHand />
             <RoleOfADealer />
+            <TheShowDown />
+            <SpecialSituations />
+            <Variants />
+            <RotatingSuits />
         </main>
     )
 }

@@ -1,6 +1,10 @@
 @use '../../../assets/baseStyles' as *;
 
-ul {
-    @include list();
-    margin-bottom: 1.875rem;
+.roleOfADealer {
+    padding: $sectionPadding;
+
+    ul {
+        @include list();
+        margin-bottom: 1.875rem;
+    }
 }

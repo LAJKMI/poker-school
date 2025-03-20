@@ -6,16 +6,18 @@ $learnBtnColor: linear-gradient(330deg, rgba(49, 150, 26, 1) 0%, rgba(49, 144, 5
 $pokerDefoultTextColor: #F4F4F4;
 $pokerSecondaryTextColor: #e4e4e4;
 $pokerDefoultCardColor: #1F1F1F;
+$sectionPadding: 0px 10px;
+$variantsBorder: .0625rem solid $pokerDefoultTextColor;
 
-@mixin button($bckColor, $letterSpacing: 0px) {
+@mixin button($bckColor, $letterSpacing: 0rem) {
     background: $bckColor;
     border: none;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: .625rem 1.25rem;
+    font-size: 1.25rem;
     color: #fff;
-    box-shadow: inset 0rem .3125rem .5rem rgba(253, 253, 253, 0.2);
-    // margin: 100px;
-    border-radius: 6px;
+    box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+    // margin: 6.25rem;
+    border-radius: .375rem;
     letter-spacing: $letterSpacing;
 }
 
@@ -31,8 +33,8 @@ $pokerDefoultCardColor: #1F1F1F;
     border-radius: $borderRadius;
     padding: $padding;
     background-color: $bcgColor;
-    box-shadow: 0 1.125rem 1.0625rem rgba($color: #000000, $alpha: .54);
-    box-shadow: inset 0 .1875rem .375rem rgba($color: #fff, $alpha: .25);
+    box-shadow: 0 18px 17px rgba($color: #000000, $alpha: .54);
+    box-shadow: inset 0 3px 6px rgba($color: #fff, $alpha: .25);
     text-align: center;
     @include flexCenter(column);
 
@@ -40,7 +42,7 @@ $pokerDefoultCardColor: #1F1F1F;
         font-size: $headingFontSize;
         color: $pokerDefoultTextColor;
         font-weight: bold;
-        margin-bottom: .3125rem;
+        margin-bottom: 5px;
     }
 
     #cardInfo {
@@ -54,15 +56,15 @@ $pokerDefoultCardColor: #1F1F1F;
     list-style: none;
 
     li {
-        font-size: .875rem;
-        margin-bottom: .625rem;
+        font-size: 14px;
+        margin-bottom: 10px;
     }
 
     li::before {
         content: '♦';
-        width: 1.25rem;
-        height: 1.25rem;
+        width: 20px;
+        height: 20px;
         color: $pokerDefoultTextColor;
-        margin-right: .3125rem;
+        margin-right: 5px;
     }
 }

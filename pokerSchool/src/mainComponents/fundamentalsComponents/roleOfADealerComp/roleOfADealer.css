@@ -1,16 +1,19 @@
 @charset "UTF-8";
-ul {
+.roleOfADealer {
+  padding: 0px 10px;
+}
+.roleOfADealer ul {
   list-style: none;
   margin-bottom: 1.875rem;
 }
-ul li {
-  font-size: 0.875rem;
-  margin-bottom: 0.625rem;
+.roleOfADealer ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
 }
-ul li::before {
+.roleOfADealer ul li::before {
   content: "♦";
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
   color: #F4F4F4;
-  margin-right: 0.3125rem;
+  margin-right: 5px;
 }/*# sourceMappingURL=roleOfADealer.css.map */

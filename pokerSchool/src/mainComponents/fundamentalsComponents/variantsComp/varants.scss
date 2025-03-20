@@ -1,0 +1,14 @@
+@use '../../../assets/baseStyles' as *;
+
+.variants {
+    height: 50dvh;
+    border-top: $variantsBorder;
+    border-bottom: $variantsBorder;
+    padding: $sectionPadding;
+
+
+    #variantsHeading {
+        margin: 20px 0px 0px 0px;
+    }
+
+}

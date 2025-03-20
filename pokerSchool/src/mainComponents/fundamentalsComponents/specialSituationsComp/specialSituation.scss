@@ -1,0 +1,15 @@
+@use '../../../assets/baseStyles' as *;
+
+.specialSituation {
+    padding: $sectionPadding;
+
+    h4 {
+        font-size: .9375rem;
+        margin-bottom: .625rem;
+    }
+
+    ul {
+        @include list();
+        margin-bottom: 1.875rem;
+    }
+}

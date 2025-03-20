@@ -1,0 +1,23 @@
+@charset "UTF-8";
+.specialSituation {
+  padding: 0px 10px;
+}
+.specialSituation h4 {
+  font-size: 0.9375rem;
+  margin-bottom: 0.625rem;
+}
+.specialSituation ul {
+  list-style: none;
+  margin-bottom: 1.875rem;
+}
+.specialSituation ul li {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.specialSituation ul li::before {
+  content: "♦";
+  width: 20px;
+  height: 20px;
+  color: #F4F4F4;
+  margin-right: 5px;
+}/*# sourceMappingURL=specialSituation.css.map */

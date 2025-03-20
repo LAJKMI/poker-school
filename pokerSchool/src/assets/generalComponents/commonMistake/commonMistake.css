@@ -12,13 +12,13 @@ h3 {
   list-style: none;
 }
 .mistakes ul li {
-  font-size: 0.875rem;
-  margin-bottom: 0.625rem;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 .mistakes ul li::before {
   content: "♦";
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 20px;
+  height: 20px;
   color: #F4F4F4;
-  margin-right: 0.3125rem;
+  margin-right: 5px;
 }/*# sourceMappingURL=commonMistake.css.map */
