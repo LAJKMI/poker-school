@@ -61,12 +61,12 @@
 #burgerMenu #practiceBtn {
   background: linear-gradient(330deg, rgb(185, 62, 9) 0%, rgb(215, 81, 32) 49%, rgb(243, 101, 49) 100%);
   border: none;
-  padding: 0.625rem 1.25rem;
-  font-size: 1.25rem;
+  padding: 10px 20px;
+  font-size: 20px;
   color: #fff;
-  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
-  border-radius: 0.375rem;
-  letter-spacing: 0rem;
+  box-shadow: inset 0rem 0.3125rem 0.5rem rgba(253, 253, 253, 0.2);
+  border-radius: 6px;
+  letter-spacing: 0px;
   font-size: 1rem;
   padding: 0.3125rem 0.625rem;
   border-radius: 0.1875rem;

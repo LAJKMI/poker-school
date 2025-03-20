@@ -6,9 +6,11 @@
     box-sizing: border-box;
     font-family: "Bitter", serif;
     font-weight: normal;
+    color: #F4F4F4;
 }
 
 body {
     background-color: #121212;
-    height: 10000px;
+    height: 625rem;
+    padding: 0rem .625rem;
 }

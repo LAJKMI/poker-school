@@ -1,19 +1,14 @@
-@import '../../../assets/baseStyles';
+@use '../../../assets/baseStyles' as *;
 
 h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
+    font-size: 1rem;
+    margin-bottom: .625rem;
 }
 
-.mistakes ul li {
-    font-size: 14px;
-    margin-bottom: 10px;
+.mistakes {
+    margin-bottom: 1.875rem;
 }
 
-.mistakes ul li::before {
-    content: '♦';
-    width: 20px;
-    height: 20px;
-    color: $pokerDefoultTextColor;
-    margin-right: 5px;
+.mistakes ul {
+    @include list()
 }

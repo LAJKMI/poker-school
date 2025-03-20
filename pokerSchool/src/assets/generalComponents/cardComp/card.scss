@@ -1,0 +1,6 @@
+@use '../../../assets/baseStyles' as *;
+
+#cardContainer {
+    @include card (.375rem, #1F1F1F, .9375rem, .875rem, .875rem);
+    margin-bottom: 1.25rem;
+}

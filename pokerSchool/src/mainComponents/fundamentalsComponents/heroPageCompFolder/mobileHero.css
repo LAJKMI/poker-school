@@ -31,22 +31,22 @@
 #hero #heroTextBox #pickAVariant {
   background: linear-gradient(330deg, rgb(185, 47, 47) 0%, rgb(206, 56, 56) 49%, rgb(227, 64, 64) 100%);
   border: none;
-  padding: 0.625rem 1.25rem;
-  font-size: 1.25rem;
+  padding: 10px 20px;
+  font-size: 20px;
   color: #fff;
-  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
-  border-radius: 0.375rem;
+  box-shadow: inset 0rem 0.3125rem 0.5rem rgba(253, 253, 253, 0.2);
+  border-radius: 6px;
   letter-spacing: 0.8px;
   font-size: 0.875rem;
 }
 #hero #heroTextBox #completeBegginer {
   background: transparent;
   border: none;
-  padding: 0.625rem 1.25rem;
-  font-size: 1.25rem;
+  padding: 10px 20px;
+  font-size: 20px;
   color: #fff;
-  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
-  border-radius: 0.375rem;
+  box-shadow: inset 0rem 0.3125rem 0.5rem rgba(253, 253, 253, 0.2);
+  border-radius: 6px;
   letter-spacing: 0.8px;
   border: 0.0625rem solid #B92F2F;
   box-shadow: none;

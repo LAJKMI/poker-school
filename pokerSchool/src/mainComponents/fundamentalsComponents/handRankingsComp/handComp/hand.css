@@ -1,23 +1,11 @@
-h3 {
-  font-weight: normal;
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 14px;
-  line-height: 23px;
-  margin-bottom: 30px;
-}
-
 .hand {
   text-align: center;
-  font-size: 14px;
-  margin-bottom: 20px;
+  font-size: 0.875rem;
+  margin-bottom: 1.25rem;
 }
 .hand h4 {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .hand img {
-  width: 250px;
+  width: 15.625rem;
 }/*# sourceMappingURL=hand.css.map */
