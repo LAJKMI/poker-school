@@ -1,14 +1,21 @@
 @use '../../../assets/baseStyles' as *;
 
 .variants {
-    height: 50dvh;
+    height: 70dvh;
     border-top: $variantsBorder;
     border-bottom: $variantsBorder;
     padding: $sectionPadding;
+    @include flexCenter(column);
+    justify-content: flex-start;
+    padding-bottom: .625rem;
 
 
     #variantsHeading {
-        margin: 20px 0px 0px 0px;
+        margin: 1.25rem 0rem;
+    }
+
+    #variantContainer {
+        overflow: scroll;
     }
 
 }

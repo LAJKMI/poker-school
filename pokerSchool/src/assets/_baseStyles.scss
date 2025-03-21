@@ -8,6 +8,8 @@ $pokerSecondaryTextColor: #e4e4e4;
 $pokerDefoultCardColor: #1F1F1F;
 $sectionPadding: 0px 10px;
 $variantsBorder: .0625rem solid $pokerDefoultTextColor;
+$variantBorderColor: #7B1D1D;
+$primaryColoredText: #E19E41;
 
 @mixin button($bckColor, $letterSpacing: 0rem) {
     background: $bckColor;

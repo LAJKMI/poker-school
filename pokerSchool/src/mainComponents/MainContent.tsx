@@ -1,3 +1,4 @@
+import Footer from "../footerComponents/Footer";
 import BettingRules from "./fundamentalsComponents/bettingRulesComp/BettingRules";
 import FlowOfAHand from "./fundamentalsComponents/flowOfTheHandComp/FlowOfAHand";
 import HandRankings from "./fundamentalsComponents/handRankingsComp/HandRankings";
@@ -20,6 +21,7 @@ export default function MainContent() {
             <SpecialSituations />
             <Variants />
             <RotatingSuits />
+            <Footer />
         </main>
     )
 }

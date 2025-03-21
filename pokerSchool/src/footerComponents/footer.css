@@ -1,0 +1,15 @@
+footer {
+  padding: 0px 10px;
+  background-color: #1A1A1A;
+  text-align: center;
+}
+footer h2 {
+  padding-top: 1.25rem;
+}
+footer p {
+  font-size: 0.875rem;
+  padding-bottom: 1.25rem;
+}
+footer p .coloredWord {
+  color: #E19E41;
+}/*# sourceMappingURL=footer.css.map */

@@ -1,9 +1,18 @@
 .variants {
-  height: 50dvh;
+  height: 70dvh;
   border-top: 0.0625rem solid #F4F4F4;
   border-bottom: 0.0625rem solid #F4F4F4;
   padding: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 0.625rem;
 }
 .variants #variantsHeading {
-  margin: 20px 0px 0px 0px;
+  margin: 1.25rem 0rem;
+}
+.variants #variantContainer {
+  overflow: scroll;
 }/*# sourceMappingURL=varants.css.map */

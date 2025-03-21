@@ -1,0 +1,23 @@
+@use '../assets/baseStyles' as *;
+
+footer {
+    padding: $sectionPadding;
+    background-color: $secondaryBackground;
+    text-align: center;
+
+    h2 {
+        padding-top: 1.25rem;
+    }
+
+    p {
+        font-size: .875rem;
+        padding-bottom: 1.25rem;
+
+        .coloredWord {
+            color: $primaryColoredText;
+        }
+    }
+
+
+
+}
