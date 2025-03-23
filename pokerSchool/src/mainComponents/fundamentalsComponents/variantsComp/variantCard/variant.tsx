@@ -1,31 +1,15 @@
-import { useEffect, useState } from 'react'
 import './variant.css'
-import axios from 'axios'
+import useVariants from '../../../../hooks/useVariants'
 
-interface variant {
-    id: number
-    img: string
-    heading: string
-    info: string
-}
+
 
 
 export default function VariantCard() {
-    const [variants, setVariants] = useState<variant[]>()
+    const { data: variants, isLoading, isError, error } = useVariants()
 
-    useEffect(() => {
-        const fetchVariants = async () => {
-            try {
-                const res = await axios.get<variant[]>('/data/variants.JSON')
-                setVariants(res.data)
-            } catch (error) {
-                console.log(error);
+    if (isLoading) return <div>Loading...</div>
+    if (isError) return <div>Error: {(error as Error).message}</div>
 
-            }
-        }
-
-        fetchVariants()
-    }, [])
 
 
     return (

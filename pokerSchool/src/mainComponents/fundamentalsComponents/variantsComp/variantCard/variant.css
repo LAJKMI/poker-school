@@ -33,7 +33,6 @@
           backdrop-filter: blur(0.1875rem);
   border: 0.125rem solid #7B1D1D;
   border-radius: 0.5rem;
-  overflow: scroll;
   padding: 0.625rem;
 }
 .variantBox .variant .variantInfoBox {

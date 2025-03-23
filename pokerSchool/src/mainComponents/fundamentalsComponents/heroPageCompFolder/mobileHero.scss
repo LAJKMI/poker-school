@@ -27,12 +27,12 @@
 
 
         #pickAVariant {
-            @include button($pickVariantBtnColor, .8px);
+            @include button($pickVariantBtnColor, .05rem);
             font-size: .875rem;
         }
 
         #completeBegginer {
-            @include button(transparent, .8px);
+            @include button(transparent, .05rem);
             border: .0625rem solid #B92F2F;
             box-shadow: none;
             font-size: .875rem;
