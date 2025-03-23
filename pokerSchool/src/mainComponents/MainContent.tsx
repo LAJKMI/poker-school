@@ -6,7 +6,7 @@ import MobileHeroComponent from "./fundamentalsComponents/heroPageCompFolder/Mob
 import RoleOfADealer from "./fundamentalsComponents/roleOfADealerComp/RoleOfADealer";
 import SpecialSituations from "./fundamentalsComponents/specialSituationsComp/SpecialSituations";
 import TheShowDown from "./fundamentalsComponents/theShowDownComp/TheShowDown";
-import RotatingSuits from "./fundamentalsComponents/variantsComp/fallingSuits/RotatingSuits";
+import RotatingSuits from "./fundamentalsComponents/fallingSuits/RotatingSuits";
 import Variants from "./fundamentalsComponents/variantsComp/Variants";
 
 export default function MainContent() {

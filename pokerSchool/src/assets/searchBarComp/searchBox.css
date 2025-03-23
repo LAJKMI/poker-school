@@ -1,0 +1,29 @@
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1.5px solid #F4F4F4;
+  height: 44px;
+  border-radius: 22px;
+  width: 250px;
+  padding: 10px;
+  background-color: #1A1A1A;
+  margin: 10px 0px 20px;
+}
+.searchBox svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 12px;
+  flex-shrink: 0;
+  color: #F4F4F4;
+}
+.searchBox input {
+  background: none;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 14px;
+  height: 100%;
+}/*# sourceMappingURL=searchBox.css.map */

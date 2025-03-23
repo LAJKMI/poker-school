@@ -7,6 +7,24 @@
 }
 .variantBox img {
   width: 6.25rem;
+  margin-bottom: -1.5625rem;
+  z-index: 3;
+}
+.variantBox .H {
+  width: 8.25rem;
+}
+.variantBox .F {
+  width: 5.25rem;
+}
+.variantBox .T {
+  width: 7.25rem;
+  margin-bottom: -1.0625rem;
+}
+.variantBox .O {
+  width: 7.25rem;
+}
+.variantBox .S {
+  width: 5.25rem;
 }
 .variantBox .variant {
   min-width: 12.5rem;
@@ -15,13 +33,13 @@
           backdrop-filter: blur(0.1875rem);
   border: 0.125rem solid #7B1D1D;
   border-radius: 0.5rem;
-  position: relative;
   overflow: scroll;
   padding: 0.625rem;
 }
 .variantBox .variant .variantInfoBox {
   text-align: center;
   font-size: 0.875rem;
+  margin-top: 10px;
 }
 .variantBox .variant .variantHeading {
   font-weight: bold;
@@ -29,8 +47,11 @@
 .variantBox .variant p {
   text-shadow: 0 0.1875rem 0.1875rem rgba(0, 0, 0, 0.5);
 }
-.variantBox .variant p span {
+.variantBox .variant p .primaryHighLight {
   color: #E19E41;
+}
+.variantBox .variant p .secondaryHighLight {
+  color: #FFD700;
 }
 .variantBox .variant .variantLearn {
   background: linear-gradient(330deg, rgb(49, 150, 26) 0%, rgb(49, 144, 5) 49%, rgb(80, 155, 33) 100%);

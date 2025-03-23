@@ -1,0 +1,30 @@
+@use '../baseStyles' as *;
+
+.searchBox {
+    @include flexCenter();
+    justify-content: flex-start;
+    border: 1.5px solid $pokerDefoultTextColor;
+    height: 44px;
+    border-radius: 22px;
+    width: 250px;
+    padding: 10px;
+    background-color: $secondaryBackground;
+    margin: 10px 0px 20px;
+
+    svg {
+        width: 16px;
+        height: 16px;
+        margin-right: 12px;
+        flex-shrink: 0; // prevents it from shrinking
+        color: $pokerDefoultTextColor;
+    }
+
+    input {
+        background: none;
+        border: none;
+        outline: none;
+        flex-grow: 1;
+        font-size: 14px;
+        height: 100%;
+    }
+}
