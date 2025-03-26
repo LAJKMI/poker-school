@@ -1,7 +1,7 @@
 import useData from "./useData"
 
 interface Variant {
-    id: number
+    id: string
     img: string
     heading: string
     info: string

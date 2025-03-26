@@ -1,48 +1,48 @@
 [
     {
-        "id": 1,
+        "id": "horse",
         "img": "/variantPictures/horse.png",
         "heading": "H.O.R.S.E",
         "info": " is an exciting poker variant that rotates through five games:  Hold'em, Omaha Hi-Lo, Razz, Seven Card Stud, and Stud Hi-Lo. It challenges your strategy, adaptability, and reading skills, making you a stronger, more versatile player."
     },
     {
-        "id": 2,
+        "id": "fivecarddraw",
         "img": "/variantPictures/fiveCardDraw.png",
-        "heading": "Five Card Draw ",
+        "heading": "Five Card Draw",
         "info": "is one of the simplest and most iconic poker variants, perfect for beginners and seasoned players alike. Each player gets five cards, with a chance to trade some in for new ones, making it a game of strategy, reading opponents, and knowing when to hold or fold."
     },
     {
-        "id": 3,
+        "id": "razz",
         "img": "/variantPictures/razz.png",
         "heading": "Razz",
         "info": " is a unique and exciting poker variant where the lowest hand wins. Instead of chasing big pairs or straights, you'll aim for the lowest possible combination, making it a game of patience, observation, and clever betting."
     },
     {
-        "id": 4,
+        "id": "texasholdem",
         "img": "/variantPictures/texasHoldm.png",
         "heading": "Texas Hold'em",
-        "info": "is essential for any poker player it teaches strategy, decision making, and hand reading skills that apply to all poker games. Whether you're aiming for tournaments or casual play, mastering it gives you a solid foundation for success!"
+        "info": "is essential for any poker player. It teaches strategy, decision making, and hand reading skills that apply to all poker games. Whether you're aiming for tournaments or casual play, mastering it gives you a solid foundation for success!"
     },
     {
-        "id": 5,
+        "id": "omaha",
         "img": "/variantPictures/omaha.png",
         "heading": "Omaha",
         "info": " is a thrilling poker variant where each player gets four hole cards instead of two, but must use exactly two of them with three community cards to make the best hand. This creates bigger pots and more action than Texas Hold'em."
     },
     {
-        "id": 6,
+        "id": "pineapple",
         "img": "/variantPictures/pineapple.png",
         "heading": "Pineapple",
         "info": " is a unique poker variant where players are dealt three hole cards but must discard one after the flop. This twist adds extra strategy and excitement, keeping you on your toes with every hand."
     },
     {
-        "id": 7,
+        "id": "sevencardstud",
         "img": "/variantPictures/sevenCardStud.png",
         "heading": "Seven Card Stud",
         "info": " is a classic poker variant where there are no community cards players build their best hand from seven individually dealt cards, with some face-up for everyone to see. This game rewards memory, observation, and strategic thinking."
     },
     {
-        "id": 8,
+        "id": "eightorbetter",
         "img": "/variantPictures/eightOrBetter.png",
         "heading": "Eight or Better",
         "info": "is a split-pot game where the highest and lowest hands share the winnings. This variant demands strategic thinking, as players must decide whether to play for the high, the low, or both. It's perfect for those who enjoy deep strategy and hand reading."

@@ -1,5 +1,6 @@
 import './variant.css'
 import useVariants from '../../../../hooks/useVariants'
+import { Link } from 'react-router-dom'
 
 
 interface VariantCardProps {
@@ -27,13 +28,15 @@ export default function VariantCard({ search }: VariantCardProps) {
             {filteredVariants?.map(variant => {
 
                 return <div className="variantBox" key={variant.id}>
-                    <img src={variant.img} className={variant.heading[0]} alt="" />
+                    <img src={variant.img} className={variant.id} alt="" />
                     <div className="variant">
 
                         <div className="variantInfoBox">
                             <h4 className="variantHeading">{variant.heading}</h4>
                             <p className="variantInfo"> {variant.info}</p>
-                            <button className="variantLearn">Learn</button>
+                            <Link to={`/${variant.id}`}>
+                                <button className="variantLearn">Learn</button>
+                            </Link>
                         </div>
                     </div>
                 </div>

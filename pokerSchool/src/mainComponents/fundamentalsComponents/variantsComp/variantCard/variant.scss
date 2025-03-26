@@ -12,26 +12,31 @@
         z-index: 3;
     }
 
-    .H {
+    .horse {
         width: 8.25rem;
     }
 
-    .F {
+    .fivecarddraw {
         width: 5.25rem;
     }
 
-    .T {
-        width: 7.25rem;
+    .razz {
+        width: 6.25rem;
         margin-bottom: -1.0625rem;
     }
 
-    .O {
+    .omaha {
         width: 7.25rem;
 
     }
 
-    .S {
+    .sevencardstud {
         width: 5.25rem;
+    }
+
+    .texasholdem {
+        width: 7.25rem;
+        margin-bottom: -1.0rem;
     }
 
 

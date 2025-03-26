@@ -19,9 +19,10 @@ $secondaryColoredText: #FFD700;
     font-size: 1.25rem;
     color: #fff;
     box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
-    // margin: 6.25rem;
     border-radius: .375rem;
     letter-spacing: $letterSpacing;
+    cursor: pointer;
+
 }
 
 @mixin flexCenter($direction: row) {

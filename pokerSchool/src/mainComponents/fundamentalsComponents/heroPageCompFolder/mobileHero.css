@@ -37,6 +37,7 @@
   box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
   border-radius: 0.375rem;
   letter-spacing: 0.05rem;
+  cursor: pointer;
   font-size: 0.875rem;
 }
 #hero #heroTextBox #completeBegginer {
@@ -48,6 +49,7 @@
   box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
   border-radius: 0.375rem;
   letter-spacing: 0.05rem;
+  cursor: pointer;
   border: 0.0625rem solid #B92F2F;
   box-shadow: none;
   font-size: 0.875rem;
