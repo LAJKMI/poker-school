@@ -2,16 +2,19 @@ import './nvaComponent.css'
 import navLogo from '../../assets/pictures/pokerLogo.png'
 import { AnimatePresence, motion } from "motion/react"
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import useScrollToSection from '../../hooks/useScrollSection'
 
 
-export default function mobileNavComponent() {
+export default function MobileNavComponent() {
     const [isOpen, setIsOpen] = useState(false)
+    useScrollToSection()
     return (
         <>
             <nav id='normalNav'>
-                <img src={navLogo} alt="logo" ></img>
+                <Link to={'/'}><img src={navLogo} alt="logo" ></img></Link>
 
-                <svg onClick={() => setIsOpen(true)} id='burgerSvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none" /><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /></svg>
+                <svg onClick={() => setIsOpen(true)} id='burgerSvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none" /><line x1="40" y1="128" x2="216" y2="128" fill="none" stroke="#E19E41" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /><line x1="40" y1="64" x2="216" y2="64" fill="none" stroke="#E19E41" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /><line x1="40" y1="192" x2="216" y2="192" fill="none" stroke="#E19E41" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /></svg>
             </nav>
             <AnimatePresence>
                 {isOpen && <motion.nav
@@ -25,11 +28,11 @@ export default function mobileNavComponent() {
                     id='burgerMenu'>
                     <svg onClick={() => setIsOpen(false)} id='xSvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><rect width="256" height="256" fill="none" /><line x1="200" y1="56" x2="56" y2="200" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /><line x1="200" y1="200" x2="56" y2="56" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="16" /></svg>
                     <div id="mobileNav">
-                        <img src={navLogo} alt="logo"></img>
+                        <Link to={'/'}><img src={navLogo} alt="logo"></img></Link>
                         <ul>
-                            <li><a href="http://">Home</a></li>
-                            <li><a href="http://">Variants</a></li>
-                            <li><a href="http://">Dictionary</a></li>
+                            <li><Link to={"/"}>Home</Link></li>
+                            <li><Link to={"#variants"}>Variants</Link></li>
+                            <li><Link to={"*"}>Dictionary</Link></li>
                             <li>
                                 <button id="practiceBtn">Practice</button>
                             </li>

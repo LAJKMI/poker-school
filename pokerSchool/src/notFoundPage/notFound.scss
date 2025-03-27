@@ -1,0 +1,33 @@
+@use '../assets/baseStyles' as *;
+
+#notfound {
+    padding: $sectionPadding;
+    margin-top: 6.25rem;
+    margin-bottom: 6.25rem;
+    text-align: center;
+
+    h1 {
+        font-size: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #mailLink {
+        color: $primaryColoredText;
+    }
+
+    button {
+        @include button($requestBtn);
+        font-size: .875rem;
+        padding: .3125rem .625rem;
+        border-radius: .3125rem;
+    }
+
+    .goHome {
+        background: $learnBtnColor;
+        margin-right: .625rem;
+    }
+}

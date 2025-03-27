@@ -6,7 +6,7 @@ import VariantCard from './variantCard/variant'
 export default function Variants() {
     const [search, setSearch] = useState('')
     return (
-        <section className="variants">
+        <section className="variants" id='variants'>
             <h2 id='variantsHeading'>Poker Variants</h2>
             <SearchBar setSearch={setSearch} />
             <div id="variantContainer">

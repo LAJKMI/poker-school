@@ -34,7 +34,7 @@ export default function VariantCard({ search }: VariantCardProps) {
                         <div className="variantInfoBox">
                             <h4 className="variantHeading">{variant.heading}</h4>
                             <p className="variantInfo"> {variant.info}</p>
-                            <Link to={`/${variant.id}`}>
+                            <Link to={`/variant/${variant.id}`}>
                                 <button className="variantLearn">Learn</button>
                             </Link>
                         </div>

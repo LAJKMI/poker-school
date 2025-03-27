@@ -11,7 +11,7 @@ import VariantRules from './variantRules/VariantRules.tsx'
 const queryClient = new QueryClient()
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
-  { path: "/:id", element: <VariantRules /> },
+  { path: "/variant/:id", element: <VariantRules /> },
   { path: "*", element: <NotFoundPage /> }
 ])
 
