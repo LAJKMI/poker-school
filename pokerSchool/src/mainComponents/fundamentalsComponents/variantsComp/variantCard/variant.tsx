@@ -1,6 +1,6 @@
 import './variant.css'
-import useVariants from '../../../../hooks/useVariants'
 import { Link } from 'react-router-dom'
+import useSearchVariants from '../../../../hooks/useSearchVariants'
 
 
 interface VariantCardProps {
@@ -8,20 +8,10 @@ interface VariantCardProps {
 }
 
 export default function VariantCard({ search }: VariantCardProps) {
-    const { data: variants, isLoading, isError, error } = useVariants()
+    const { filteredVariants, isLoading, isError, error } = useSearchVariants(search)
 
     if (isLoading) return <div>Loading...</div>
     if (isError) return <div>Error: {(error as Error).message}</div>
-
-    const filteredVariants = variants?.filter(variant => {
-        const moddedHeading = variant.heading.replace(/[\s.]+/g, "").toLowerCase()
-        const moddedSearch = search.replace(/[\s.]+/g, "").toLowerCase()
-        return (
-            moddedHeading.includes(moddedSearch)
-        )
-    })
-
-
 
     return (
         <>

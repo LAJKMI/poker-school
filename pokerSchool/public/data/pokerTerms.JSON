@@ -1,0 +1,455 @@
+[
+    {
+        "letter": "A",
+        "termInfo": [
+            {
+                "term": "Ace-high",
+                "explanation": "A hand where the highest card is an Ace, and there are no pairs or higher hands."
+            },
+            {
+                "term": "Action",
+                "explanation": "The decisions made during a hand, including bets, raises, calls, and folds."
+            },
+            {
+                "term": "Aggression",
+                "explanation": "A playing style characterized by frequently betting and raising rather than calling."
+            },
+            {
+                "term": "All-in",
+                "explanation": "Betting all of a player's remaining chips."
+            },
+            {
+                "term": "Ante",
+                "explanation": "A small forced bet posted by all players before a hand begins, typically in stud games."
+            },
+            {
+                "term": "Around the clock",
+                "explanation": "A term referring to playing poker continuously, often over long periods."
+            }
+        ]
+    },
+    {
+        "letter": "B",
+        "termInfo": [
+            {
+                "term": "Bad Beat",
+                "explanation": "When a player with a strong hand loses to a player with a much weaker hand, often in a surprising or unlikely way."
+            },
+            {
+                "term": "Bankroll",
+                "explanation": "The total amount of money a player has set aside for playing poker."
+            },
+            {
+                "term": "Big Blind",
+                "explanation": "A forced bet placed by the player two seats to the left of the dealer in games like Texas Hold'em and Omaha."
+            },
+            {
+                "term": "Bluff",
+                "explanation": "A bet or raise made with a weak hand to deceive other players into folding stronger hands."
+            },
+            {
+                "term": "Board",
+                "explanation": "The community cards in games like Texas Hold'em and Omaha that all players can use to form their hand."
+            },
+            {
+                "term": "Bottom Pair",
+                "explanation": "A hand where the lowest card on the board forms a pair with one of the player's hole cards."
+            }
+        ]
+    },
+    {
+        "letter": "C",
+        "termInfo": [
+            {
+                "term": "Call",
+                "explanation": "To match the current bet made by another player during a round of betting."
+            },
+            {
+                "term": "Cap",
+                "explanation": "The limit on the number of raises allowed in a betting round."
+            },
+            {
+                "term": "Check",
+                "explanation": "To pass the action to the next player without making a bet, typically when no bet has been made yet in the current round."
+            },
+            {
+                "term": "Check-raise",
+                "explanation": "To check initially and then raise after another player bets."
+            },
+            {
+                "term": "Community Cards",
+                "explanation": "Cards that are dealt face-up in the middle of the table for all players to use to make their hands in games like Texas Hold'em and Omaha."
+            },
+            {
+                "term": "Connected",
+                "explanation": "Cards that are sequentially ranked, such as 7-8 or 10-J."
+            },
+            {
+                "term": "Continuation Bet (C-Bet)",
+                "explanation": "A bet made by the player who took the lead in the previous round of betting, often on the flop."
+            },
+            {
+                "term": "Cut-off",
+                "explanation": "The player sitting immediately to the right of the button."
+            }
+        ]
+    },
+    {
+        "letter": "D",
+        "termInfo": [
+            {
+                "term": "Dealer Button",
+                "explanation": "A small disk that marks the dealer position in games with a rotating dealer."
+            },
+            {
+                "term": "Draw",
+                "explanation": "A hand that could potentially improve with one or more specific cards, such as a straight or flush draw."
+            },
+            {
+                "term": "Drawing Dead",
+                "explanation": "When a player cannot improve their hand, no matter what card they draw."
+            },
+            {
+                "term": "Deuce",
+                "explanation": "A 2 card, which is often the lowest card in many games."
+            }
+        ]
+    },
+    {
+        "letter": "F",
+        "termInfo": [
+            {
+                "term": "Fold",
+                "explanation": "To discard one's cards and forfeit the hand."
+            },
+            {
+                "term": "Flop",
+                "explanation": "The first three community cards dealt in Texas Hold'em and Omaha, placed face-up."
+            },
+            {
+                "term": "Flush",
+                "explanation": "A hand where all five cards are of the same suit."
+            },
+            {
+                "term": "Fold Equity",
+                "explanation": "The probability of forcing an opponent to fold by making a bet or raise."
+            },
+            {
+                "term": "Free Card",
+                "explanation": "A community card dealt without any betting action occurring."
+            }
+        ]
+    },
+    {
+        "letter": "G",
+        "termInfo": [
+            {
+                "term": "Gutshot",
+                "explanation": "A straight draw that requires one specific card to complete, such as needing a 5 in a hand of 7-8-10-J."
+            },
+            {
+                "term": "Give up",
+                "explanation": "When a player decides to stop playing a hand and folds."
+            }
+        ]
+    },
+    {
+        "letter": "H",
+        "termInfo": [
+            {
+                "term": "Hero",
+                "explanation": "The player being referenced in a particular situation, typically the one making the decision."
+            },
+            {
+                "term": "High Card",
+                "explanation": "When no player has any pair or higher, the hand is determined by the highest card in the player's hand."
+            },
+            {
+                "term": "Hit",
+                "explanation": "To receive a card that improves your hand."
+            }
+        ]
+    },
+    {
+        "letter": "I",
+        "termInfo": [
+            {
+                "term": "Implied Odds",
+                "explanation": "The potential future winnings in a hand that might justify calling a bet."
+            },
+            {
+                "term": "Isolate",
+                "explanation": "To raise in order to force weaker players to fold, isolating one opponent for a potential heads-up."
+            }
+        ]
+    },
+    {
+        "letter": "J",
+        "termInfo": [
+            {
+                "term": "Jackpot",
+                "explanation": "A special prize pool that can be won in certain poker games, typically for a specific rare hand."
+            },
+            {
+                "term": "Junk Hand",
+                "explanation": "A hand that has very little value, often a low combination of unconnected cards."
+            },
+            {
+                "term": "Joker",
+                "explanation": "In some poker variants, a card that can serve as a wild card."
+            }
+        ]
+    },
+    {
+        "letter": "K",
+        "termInfo": [
+            {
+                "term": "Kicker",
+                "explanation": "A card used to determine the winner of a hand when players have the same rank of cards (e.g., two players have a pair of kings, and the kicker decides the winner)."
+            },
+            {
+                "term": "King-high",
+                "explanation": "A hand where the highest card is a King."
+            }
+        ]
+    },
+    {
+        "letter": "L",
+        "termInfo": [
+            {
+                "term": "Limp",
+                "explanation": "To call the big blind instead of raising, often considered a weak move."
+            },
+            {
+                "term": "Low Hand",
+                "explanation": "A hand that ranks based on the lowest cards, typically in games like Omaha Hi/Lo."
+            }
+        ]
+    },
+    {
+        "letter": "M",
+        "termInfo": [
+            {
+                "term": "Muck",
+                "explanation": "To discard your cards face-down into the discard pile, either after folding or when a hand is over."
+            },
+            {
+                "term": "Mid-Pair",
+                "explanation": "A pair made from the middle card of the board."
+            },
+            {
+                "term": "Monster",
+                "explanation": "A hand that is extremely strong, often close to unbeatable, like a full house or higher."
+            }
+        ]
+    },
+    {
+        "letter": "N",
+        "termInfo": [
+            {
+                "term": "Nuts",
+                "explanation": "The best possible hand in a given situation."
+            },
+            {
+                "term": "No-Limit",
+                "explanation": "A betting structure where players can bet all of their chips at any time during the hand."
+            },
+            {
+                "term": "Nut Flush",
+                "explanation": "The highest possible flush, typically made with the Ace as the highest card."
+            }
+        ]
+    },
+    {
+        "letter": "O",
+        "termInfo": [
+            {
+                "term": "Offsuit",
+                "explanation": "Two cards that are not of the same suit."
+            },
+            {
+                "term": "Open-ended Straight Draw",
+                "explanation": "A straight draw where you can complete the straight with one of two possible cards (e.g., 5-6-8-9)."
+            },
+            {
+                "term": "Overpair",
+                "explanation": "A pair in a player's hand that is higher than any card on the board."
+            }
+        ]
+    },
+    {
+        "letter": "P",
+        "termInfo": [
+            {
+                "term": "Pocket Pair",
+                "explanation": "A pair of the same card rank dealt as a player's hole cards."
+            },
+            {
+                "term": "Play the Board",
+                "explanation": "When a player uses all five community cards to make the best hand, usually occurring when no player has a better hand than what the board shows."
+            },
+            {
+                "term": "Pot",
+                "explanation": "The total amount of money bet by all players in a single hand."
+            },
+            {
+                "term": "Pot Odds",
+                "explanation": "The ratio of the current size of the pot to the cost of a contemplated call."
+            },
+            {
+                "term": "Position",
+                "explanation": "A player's location relative to the dealer, which influences their actions and strategies in the hand."
+            }
+        ]
+    },
+    {
+        "letter": "Q",
+        "termInfo": [
+            {
+                "term": "Quads",
+                "explanation": "Four of a kind."
+            },
+            {
+                "term": "Quick Fold",
+                "explanation": "A very fast fold, often used to avoid unnecessary decision-making."
+            }
+        ]
+    },
+    {
+        "letter": "R",
+        "termInfo": [
+            {
+                "term": "Raise",
+                "explanation": "To increase the size of the current bet."
+            },
+            {
+                "term": "Re-Raise",
+                "explanation": "To raise after someone has already raised."
+            },
+            {
+                "term": "River",
+                "explanation": "The fifth and final community card dealt in Texas Hold'em and Omaha."
+            },
+            {
+                "term": "Royal Flush",
+                "explanation": "The highest possible hand, consisting of A-K-Q-J-10 of the same suit."
+            }
+        ]
+    },
+    {
+        "letter": "S",
+        "termInfo": [
+            {
+                "term": "Set",
+                "explanation": "A three of a kind made with a pocket pair and one of the community cards."
+            },
+            {
+                "term": "Showdown",
+                "explanation": "The final stage of the hand, where players reveal their cards to determine the winner."
+            },
+            {
+                "term": "Small Blind",
+                "explanation": "The forced bet placed by the player immediately to the left of the dealer."
+            },
+            {
+                "term": "Slowplay",
+                "explanation": "To play a strong hand passively, typically to induce opponents to bet more."
+            },
+            {
+                "term": "Straight",
+                "explanation": "A hand consisting of five sequentially ranked cards, regardless of suit."
+            },
+            {
+                "term": "Straddle",
+                "explanation": "A voluntary blind bet made before the cards are dealt, typically twice the big blind."
+            }
+        ]
+    },
+    {
+        "letter": "T",
+        "termInfo": [
+            {
+                "term": "Tilt",
+                "explanation": "A mental state where a player becomes frustrated or emotional, leading to poor decision-making."
+            },
+            {
+                "term": "Top Pair",
+                "explanation": "A pair made with the highest card on the board."
+            },
+            {
+                "term": "Three-of-a-Kind",
+                "explanation": "A hand containing three cards of the same rank."
+            },
+            {
+                "term": "Tight",
+                "explanation": "A playing style characterized by playing only strong hands and folding the rest."
+            }
+        ]
+    },
+    {
+        "letter": "U",
+        "termInfo": [
+            {
+                "term": "Under the Gun",
+                "explanation": "The player who is first to act in a round of betting."
+            },
+            {
+                "term": "Underpair",
+                "explanation": "A pocket pair lower than the highest card on the board."
+            }
+        ]
+    },
+    {
+        "letter": "V",
+        "termInfo": [
+            {
+                "term": "Value Bet",
+                "explanation": "A bet made with a hand that is likely to be the best, with the goal of getting called by worse hands."
+            },
+            {
+                "term": "Villain",
+                "explanation": "The opponent in the hand being discussed."
+            }
+        ]
+    },
+    {
+        "letter": "W",
+        "termInfo": [
+            {
+                "term": "Wheel",
+                "explanation": "A straight consisting of A-2-3-4-5, the lowest possible straight."
+            },
+            {
+                "term": "Whale",
+                "explanation": "A player with a large bankroll who tends to gamble recklessly."
+            }
+        ]
+    },
+    {
+        "letter": "X",
+        "termInfo": [
+            {
+                "term": "X-Card",
+                "explanation": "A term used to refer to a hidden or unknown card, especially when discussing hands during the game."
+            }
+        ]
+    },
+    {
+        "letter": "Y",
+        "termInfo": [
+            {
+                "term": "Yellow Chips",
+                "explanation": "High denomination chips, typically worth $1,000 in many casinos."
+            }
+        ]
+    },
+    {
+        "letter": "Z",
+        "termInfo": [
+            {
+                "term": "Zero Equity",
+                "explanation": "A situation in which a player has no chance of winning the pot, often due to drawing dead."
+            }
+        ]
+    }
+]
