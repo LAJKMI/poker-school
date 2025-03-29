@@ -1,0 +1,41 @@
+@use '../assets/baseStyles' as *;
+
+#dictionary {
+    padding: $sectionPadding;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    #dictionarySearch {
+        width: 200px;
+        height: 35px;
+        border-radius: 17.5px;
+        margin-top: 30px;
+    }
+
+    #terms {
+        text-align: start;
+        max-height: 600px;
+        overflow-y: scroll;
+        margin-top: 30px;
+
+        .letter {
+            text-align: start;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+
+        .termBox {
+
+            .term {
+                font-weight: 600;
+            }
+
+            hr {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+
+}

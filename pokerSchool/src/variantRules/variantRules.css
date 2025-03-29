@@ -1,0 +1,23 @@
+#variantRules {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#variantRules h1 {
+  font-size: 20px;
+  margin: 20px 0px 30px;
+}
+#variantRules section {
+  padding: 0rem 0.625rem;
+  margin-bottom: 30px;
+  text-align: start;
+}
+#variantRules h2 {
+  text-align: start;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#variantRules p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}/*# sourceMappingURL=variantRules.css.map */

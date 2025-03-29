@@ -1,0 +1,29 @@
+#dictionary {
+  padding: 0rem 0.625rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#dictionary #dictionarySearch {
+  width: 200px;
+  height: 35px;
+  border-radius: 17.5px;
+  margin-top: 30px;
+}
+#dictionary #terms {
+  text-align: start;
+  max-height: 600px;
+  overflow-y: scroll;
+  margin-top: 30px;
+}
+#dictionary #terms .letter {
+  text-align: start;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+#dictionary #terms .termBox .term {
+  font-weight: 600;
+}
+#dictionary #terms .termBox hr {
+  margin-bottom: 20px;
+}/*# sourceMappingURL=dictionary.css.map */

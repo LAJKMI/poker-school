@@ -31,8 +31,8 @@ export default function MobileNavComponent() {
                         <Link to={'/'}><img src={navLogo} alt="logo"></img></Link>
                         <ul>
                             <li><Link to={"/"}>Home</Link></li>
-                            <li><Link to={"#variants"}>Variants</Link></li>
-                            <li><Link to={"*"}>Dictionary</Link></li>
+                            <li><Link to={"/#variants"}>Variants</Link></li>
+                            <li><Link to={"/dictionary"}>Dictionary</Link></li>
                             <li>
                                 <button id="practiceBtn">Practice</button>
                             </li>

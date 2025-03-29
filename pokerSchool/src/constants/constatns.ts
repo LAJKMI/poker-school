@@ -1,0 +1,1 @@
+export const emailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=lajkmiwebsites@gmail.com&su=Poker Variant Request&body=Hello,%0A%0AI'd like to request a poker variant to be added to the site.%0A%0AThank you!"

@@ -3,18 +3,18 @@
 .searchBox {
     @include flexCenter();
     justify-content: flex-start;
-    border: 1.5px solid $pokerDefoultTextColor;
-    height: 44px;
-    border-radius: 22px;
-    width: 250px;
-    padding: 10px;
+    border: .0938rem solid $pokerDefoultTextColor;
+    height: 2.75rem;
+    border-radius: 1.375rem;
+    width: 15.625rem;
+    padding: .625rem;
     background-color: $secondaryBackground;
-    margin: 10px 0px 20px;
+    margin: .625rem 0rem 1.25rem;
 
     svg {
-        width: 16px;
-        height: 16px;
-        margin-right: 12px;
+        width: 1rem;
+        height: 1rem;
+        margin-right: .75rem;
         flex-shrink: 0; // prevents it from shrinking
         color: $pokerDefoultTextColor;
     }
@@ -24,7 +24,7 @@
         border: none;
         outline: none;
         flex-grow: 1;
-        font-size: 14px;
+        font-size: .875rem;
         height: 100%;
     }
 }
