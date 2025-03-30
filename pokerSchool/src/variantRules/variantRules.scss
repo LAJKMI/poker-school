@@ -2,7 +2,7 @@
 
 #variantRules {
     margin-top: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: center;
 
     h1 {
@@ -20,11 +20,57 @@
         text-align: start;
         margin-bottom: 10px;
         font-size: 18px;
+        font-weight: 600;
     }
 
     p {
         font-size: 14px;
         margin-bottom: 10px;
+    }
+
+    .howToWin {
+        ol {
+            padding: 0px 0px 20px 15px;
+        }
+    }
+
+    .handWalkthrough {
+        .handFase {
+            h3 {
+                font-weight: 600;
+            }
+
+            ul li {
+                font-size: 14px;
+            }
+        }
+    }
+
+    .conclusion {
+        .learnVariantBtns {
+            @include flexCenter();
+            justify-content: start;
+            gap: 15px;
+            padding-top: 10px;
+
+            .practice {
+                @include button($practiceBtnColor);
+
+            }
+
+            .quizz {
+                @include button($quizzBtnColor);
+
+            }
+
+            .practice,
+            .quizz {
+                font-size: 14px;
+                padding: 5px 10px;
+            }
+
+
+        }
     }
 
 }

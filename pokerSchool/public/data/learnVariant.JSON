@@ -1,0 +1,534 @@
+[
+    {
+        "id": "texasholdem",
+        "img": "/variantPictures/texasHoldm.png",
+        "heading": "Welcome To Texas Hold'em",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Texas Hold'em is simple: Make the best five-card hand using any combination of the two private hole cards dealt to you and the five community cards that are shared by all players.Texas Hold'em is a community card game, meaning that everyone shares the same set of community cards, but each player also has their own unique hole cards. The player with the best five-card hand (based on poker hand rankings) wins the pot."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "Texas Hold'em can be played with 2 to 10 players."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "52 cards are used (no jokers or wild cards)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "In Texas Hold'em, there are two forced bets: the small blind and the big blind. These bets are made before the cards are even dealt and are designed to create action.Small Blind: The player to the left of the dealer posts this bet (usually half of the big blind).Big Blind: The player two seats to the left of the dealer posts this bet (usually the standard betting amount).These forced bets ensure that there's always something to play for, even before players start betting."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise around the table after each hand. This determines which player is the dealer for that hand, as well as who posts the blinds. In casino play, the dealer is usually a non-playing staff member, but in home games, the button moves to each player."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "Dealing in texas hold'em happends  pre-flop meaining before any comunity cards are dealt The dealer shuffles the deck and deals two hole cards face down to each player.Players can look at their own hole cards but should keep them hidden from others.The player to the left of the big blind starts the first betting round (pre-flop)."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are four betting rounds in Texas Hold'em: Pre-flop, Post-flop, Post-turn, and Post-river. Let's break down each one.",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Pre-Flop Betting",
+                    "bettingRoundsPartsInfo": "After everyone receives their two hole cards, the first betting round begins with the player to the left of the big blind.The player can fold, call, or raise.Fold: Discard your hand and stop participating in the current hand.Call: Match the current bet (equal to the big blind if no raises have occurred).Raise: Increase the size of the current bet.This continues clockwise around the table until everyone has had a chance to act."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Flop Betting",
+                    "bettingRoundsPartsInfo": "After the pre-flop round is complete, the dealer deals three community cards face-up in the center of the table. These cards are called the flop.A new round of betting begins with the player to the left of the dealer. This time, players can bet on the strength of their hand based on the community cards.Players can bet, check (if no one has bet), or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Turn Betting",
+                    "bettingRoundsPartsInfo": "After the flop, the dealer adds a fourth community card called the turn.Another round of betting takes place, again starting with the player to the left of the dealer.Players now have four community cards to use in combination with their hole cards to make their hand."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-River Betting",
+                    "bettingRoundsPartsInfo": "Finally, the dealer places the fifth and last community card called the river.The last betting round takes place, with the player to the left of the dealer once again beginning the betting."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": "After the final betting round (post-river), if there are two or more players left in the hand, the showdown occurs. Players reveal their hole cards, and the best five-card hand is determined by combining the hole cards and community cards."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand wins the pot. The hand rankings are the same as in traditional poker:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made"
+            ],
+            "howToWinEndNote": "If two players have the same hand, the kicker (the next highest card) is used to break the tie."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies for Texas Hold'em.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Play tight: As a beginner, it's important to play fewer hands and only get involved with stronger starting hands. Good starting hands include pairs, high cards (Ace, King, Queen), and suited connectors (e.g., 10♠ J♠).."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "Late position: Players who act later in the betting rounds have more information about what others are doing. This gives them an advantage. If you're in late position, you can make more informed decisions, including bluffing or playing weaker hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Know When to Fold",
+                    "keyStrategiesPartsInfo": "Don't be afraid to fold. If you don't have a strong hand and the community cards don't help you, it's better to fold than risk losing chips."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing is an essential part of Texas Hold'em, but it should be used carefully. As a beginner, you should only attempt bluffing when the situation makes sense. For example, bluff when you have a decent chance of winning with a weaker hand, or when the board favors a strong hand."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bet Sizing",
+                    "keyStrategiesPartsInfo": "Learn to control the size of your bets. Betting too large can scare off opponents, while betting too small may not build a pot when you have a strong hand."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ K♥ (Ace of Spades and King of Hearts)",
+                            "Blinds: The small blind posts 10 chips, and the big blind posts 20 chips.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 (to your left) raises to 50 chips.",
+                            "You call the 50 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 120 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Flop (First three community cards are dealt)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Flop Cards: 5♠ 9♦ K♠",
+                            "Your Hand Now: A♠ K♥ + K♠ → Pair of Kings",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks (chooses not to bet).",
+                            "You bet 100 chips to build the pot.",
+                            "Player 2 calls the 100 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 320 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Turn (Fourth community card is dealt)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Turn Card: 3♣",
+                            "Your Hand Still: Pair of Kings (No improvement).",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks again.",
+                            "You bet 200 chips, hoping to extract more value.",
+                            "Player 2 calls the 200 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 720 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "River (Fifth and final community card is dealt)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "River Card: K♣",
+                            "Your Final Hand: Three of a Kind (Kings)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 bets 300 chips, representing a strong hand.",
+                            "You consider for a moment and call the 300 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 1320 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal your three Kings, Player 2 reviels three nines, your three of a kind is stronger . You win the pot!"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "You've now learned the basics of Texas Hold'em. This game is all about strategy, patience, and reading your opponents. Start practicing with friends or in online games, and don't worry if you lose a few hands early on—it's all part of the learning process."
+        }
+    },
+    {
+        "id": "razz",
+        "img": "/variantPictures/razz.png",
+        "heading": "Welcome To Razz",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Razz is to make the lowest possible five-card hand. Unlike traditional poker where you aim for the highest hand, in Razz, you want to have the lowest-ranked cards. Straights and flushes do not count against you, and aces are always low."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "Razz is usually played with 2 to 8 players. "
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "In Razz, there are antes, not blinds. All players must post an ante to start the hand. The ante amount can vary, but it's typically a small percentage of the pot."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise after each hand, and the player to the left of the button posts the ante. In some variations, the dealer posts a small blind."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "Hole Cards: Each player is dealt 7 cards, but only the first three are face down (known as 'hole cards'). The remaining cards are dealt face-up (called 'board cards') in subsequent rounds. Players can only see their own hole cards, and the face-up cards are visible to everyone."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are 5 betting rounds in Razz. Here's how each one plays out:",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Third Street (Pre-Flop)",
+                    "bettingRoundsPartsInfo": "The game begins with each player receiving 3 cards: two face-down hole cards and one face-up.The player with the highest card showing (determined by the value of the card, with Aces being high) is the first to act. This player is required to start with a forced bet (known as the 'bring-in' bet).Players can then fold, call, or raise based on their hand."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Fourth Street",
+                    "bettingRoundsPartsInfo": "The dealer deals another face-up card to each player.The player with the best hand showing (the lowest hand based on the exposed cards) now starts the betting round.Players can again fold, call, or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Fifth Street",
+                    "bettingRoundsPartsInfo": "Another face-up card is dealt to each player.The player with the lowest face-up hand starts the betting round."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Sixth Street",
+                    "bettingRoundsPartsInfo": "A final face-up card is dealt to each player.The betting proceeds the same way as the previous rounds, with the lowest hand acting first."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Seventh Street (The River)",
+                    "bettingRoundsPartsInfo": "The final card is dealt face-down.A final round of betting takes place, with players checking, folding, calling, or raising based on their hand."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": "After the final round of betting, the remaining players reveal their seven cards. The player with the lowest hand (using five of the seven cards) wins the pot.Hand Rankings for Razz: In Razz, the lowest hand wins. The best hand is the lowest possible combination of five cards. Here's how the hand rankings break down:The Best Hand (A-2-3-4-5): This is the lowest possible hand in Razz and is called the “Wheel”.Other Low Hands: The next best hands are combinations like A-2-3-4-6, A-2-3-5-7, etc.Note that flushes and straights do not count against you in Razz."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand made up of any combination of the seven cards they've been dealt wins the pot. Here are some important things to remember:Straights and flushes don't matter in Razz—only the low value of the cards.Aces are always low, and the lowest hand wins.",
+            "howToWinParts": [
+                "Five-High (A-2-3-4-5)",
+                "Six-High (A-2-3-4-6)",
+                "Seven-High (A-2-3-4-7)",
+                "Eight-High (A-2-3-4-8)",
+                "Nine-High (A-2-3-4-9)",
+                "Ten-High (A-2-3-4-10)",
+                "Jack-High (A-2-3-4-J)",
+                "Queen-High (A-2-3-4-Q)",
+                "King-High (A-2-3-4-K)",
+                "Pair (A-2-3-4-A, etc. — these hands are considered the weakest in Razz)"
+            ],
+            "howToWinEndNote": "If two players have identical hands, the pot is split between them."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies for Razz",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Play tight and avoid getting involved in hands with high cards like Kings or Queens, which will make it difficult to form a low hand.Good starting hands often include low cards like A-2-3, A-2-4, etc."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "Acting later in the betting rounds gives you more information about your opponents' hands, so use this advantage to make better decisions.Don't Overestimate High Cards: Hands with high cards (8 or higher) are typically not strong in Razz. Focus on hands with lower cards."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing in Razz can be difficult since your cards are visible to others. Only bluff when you have a solid chance of winning, and avoid bluffing against players with strong low cards."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Pay Attention to the Exposed Cards:",
+                    "keyStrategiesPartsInfo": "Since players cards are dealt face-up after the initial deal, keep track of the cards your opponents have. If they have a 7 and 8 showing, they are likely trying to make a low hand, so avoid playing against them with high cards."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Third Street (Pre-Flop)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ 2♦ 9♣",
+                            "The Bring-In: 10 chips",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 (to your left) raises to 30 chips.",
+                            "You call the 30 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 70 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Fourth Street (First community card revealed)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "New Card: 3♠",
+                            "Your Hand Now: A♠ 2♦ 3♠ 9♣",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You bet 50 chips.",
+                            "Player 2 calls the 50 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 170 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Fifth Street (Second community card revealed)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "New Card: 4♠",
+                            "Your Hand Now: A♠ 2♦ 3♠ 4♠ 9♣",
+                            "You now have a strong low hand: A-2-3-4-9.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You bet 100 chips.",
+                            "Player 2 calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 370 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Sixth Street (Third community card revealed)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "New Card: 5♠",
+                            "Your Hand Now: A♠ 2♦ 3♠ 4♠ 5♠ (Best possible Razz hand - 'The Wheel')",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You bet 200 chips.",
+                            "Player 2 folds."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 570 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "Since player 2 folded the game ends before the Seventh Street and you win automaticlly because there is no other players left to compete with your hand"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "Now that you've learned the basics of Razz, it's time to practice and improve your skills. Remember, patience and careful hand selection are key to succeeding in this unique poker variant."
+        }
+    },
+    {
+        "id": "horse",
+        "img": "/variantPictures/horse.png",
+        "heading": "Welcome To H.O.R.S.E.",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "Note before you go into this variant, it is definitlly not for beginners so if you are totally new to poker we highly suggest you start with something like razz or texas hold'em, that said if you are up for a chellange go for it :).The goal of H.O.R.S.E. is to win the most chips by playing a series of five different poker games in one session. Each round of the game switches to a different poker variant, with each letter of H.O.R.S.E.' representing a different game. The games in H.O.R.S.E. are as follows:H - Hold'em (Texas Hold'em),O - Omaha,R - Razz,S - Seven Card Stud,E - Eight or Better (Hi-Lo Split)The player who wins the most chips across all five variants is the overall winner of the game."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "H.O.R.S.E. is usually played with 2 to 10 players. "
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "Similar to Texas Hold'em, there are small and big blinds, and the player to the left of the dealer posts the small blind, while the next player posts the big blind."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise after each hand to determine who deals and who posts the blinds."
+                },
+                {
+                    "setupPartsTitle": "The Five Variants in H.O.R.S.E.",
+                    "setupPartsInfo": "Let's break down the five poker variants used in H.O.R.S.E.:H: Texas Hold'em This is the most familiar variant to most players. You receive two private hole cards, and five community cards are shared. Players make the best five-card hand using their hole cards and the community cards.O: OmahaIn Omaha, players receive four hole cards, but they must use exactly two of them in combination with three of the five community cards to form the best hand. This variant usually involves more action because players have more options to form a strong hand.R: RazzRazz is a lowball poker game where the goal is to make the lowest possible five-card hand. Straights and flushes do not count against you, and the ace is always low (A-2-3-4-5 is the best hand). In Razz, you are trying to avoid making high hands, so the best hand is a 5-4-3-2-A. S: Seven Card Stud In Seven Card Stud, there are no community cards. Each player is dealt seven cards, three face-down and four face-up. The best hand is made using five of these seven cards. Betting occurs after each round of cards is dealt.E: Eight or Better (Hi-Lo Split)In Eight or Better, also known as Omaha Hi-Lo or Seven Card Stud Hi-Lo, the pot is split between the highest and lowest hands. To qualify for the low half of the pot, a player's hand must contain five cards of 8 or lower. Straights and flushes do not count against you for the low hand, and the ace is considered low."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "Each game in H.O.R.S.E. follows its own standard betting rules, but they share similar betting rounds: pre-flop, post-flop, and post-river (or equivalents depending on the variant).",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Texas Hold'em (H)",
+                    "bettingRoundsPartsInfo": "Pre-flop: Players are dealt two hole cards. The small blind and big blind are posted. Players can fold, call, or raise.Post-flop: Three community cards are revealed. Another round of betting occurs.Post-turn: A fourth community card is dealt. Players bet again.Post-river: The fifth and final community card is dealt. The last round of betting takes place before the showdown."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Omaha (O)",
+                    "bettingRoundsPartsInfo": "Pre-flop: Players are dealt four hole cards. The blinds are posted. Players bet, fold, or raise.Post-flop: Three community cards are dealt.Post-turn: A fourth community card is dealt.Post-river: The final community card is dealt. The showdown occurs after the last betting round."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Razz (R)",
+                    "bettingRoundsPartsInfo": "Pre-betting: Players are dealt two hole cards and one upcard. The player with the highest upcard must bring in (bet) to start the action.Post-third street: One more upcard is dealt, and another betting round occurs.Post-fourth, fifth, and sixth streets: Additional upcards are dealt with betting rounds following each.Showdown: After the final round, players reveal their hole cards, and the lowest hand wins."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Seven Card Stud (S)",
+                    "bettingRoundsPartsInfo": "Pre-betting: Players are dealt two hole cards and one upcard. The player with the lowest upcard must bet the bring-in.Post-third street: A second upcard is dealt, and a betting round occurs.Post-fourth, fifth, and sixth streets: Additional upcards are dealt with betting rounds in between.Showdown: After the seventh card is dealt, players reveal their hands, and the best five-card hand wins."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Eight or Better (E)",
+                    "bettingRoundsPartsInfo": "Pre-betting: Players are dealt two hole cards and one upcard, and the betting round begins with the player with the lowest upcard.Post-third street: Players are dealt additional upcards, with betting rounds in between.Post-fourth, fifth, and sixth streets: More upcards are dealt, and players continue betting.Showdown: After the seventh card is dealt, the pot is split between the highest hand and the lowest qualifying hand (if applicable)."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "In H.O.R.S.E., the player with the most chips at the end of the five games wins. In each round, the rules of the variant being played apply, and players can win the pot according to the hand rankings for that variant."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies for H.O.R.S.E.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Texas Hold'em: Play tight with hands like pocket pairs, high cards (Ace, King), and suited connectors.Omaha: Focus on hands with high card potential and strong combinations, such as high pairs or suited connectors.Razz: Focus on getting low cards (A-2-3-4-5) and avoid high cards.Seven Card Stud: Start with strong starting hands, like a pair or suited connectors, and avoid starting with weak hands.Eight or Better: In Hi-Lo, you want to play both high and low hands. Keep an eye out for opportunities to scoop the pot with both the best high and low hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "In all variants, players who act later in the betting rounds have more information and can make better decisions based on others' actions. Play more aggressively when you're in late position."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bet Sizing",
+                    "keyStrategiesPartsInfo": "Adjust your bet size depending on the variant. In Seven Card Stud and Omaha, where the action can get big, it's important to control the size of the pot. In Razz, smaller bets may be more effective, as it's about avoiding the high hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing should be used cautiously, especially in games like Razz where players are trying to make the lowest hand. In games like Texas Hold'em and Omaha, bluffing is common, but in Seven Card Stud, it's less effective due to the number of visible cards."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre-Flop (Texas Hold'em)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ K♥   ",
+                            "Blinds:The small blind posts 10 chips, and the big blind posts 20 chips",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 raises to 50 chips.",
+                            "You call the 50 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 130 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Flop (Omaha)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Flop Cards: 5♠ 9♦ K♠",
+                            "Your Hand Now: A♠ K♥ + K♠ → Pair of Kings",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You bet 100 chips.",
+                            "Player 2 calls the 100 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 330 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Turn (Razz)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Turn Card: 3♣",
+                            "Your Hand Still: Pair of Kings (No improvement)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You check behind to see the next card for free."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 320 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-River (Seven Card Stud)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "River Card: K♣",
+                            "Your Hand Now: A♠ K♥ K♠ K♣ → Three of a Kind (Kings)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks again.",
+                            "You bet 200 chips.",
+                            "Player 2 calls the 200 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 770 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Final Round (Eight or Better)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Final Card: 2♥ (down card)",
+                            "Your Final High Hand: Three of a Kind (Kings)",
+                            "Your Final Low Hand: A-2-3-5-9 (Not a qualifying low hand, since it must be 8 or lower)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "No split occurs because no one qualifies for a low hand."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 770 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal three kings and win the pot"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "H.O.R.S.E. is a great way to test your poker skills across multiple variants, each with its own set of challenges and strategies. By learning how to play all five games effectively, you can become a well-rounded poker player. Start practicing with friends or in online games to improve your understanding of these different poker types."
+        }
+    }
+]

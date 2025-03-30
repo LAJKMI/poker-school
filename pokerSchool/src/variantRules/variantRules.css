@@ -1,6 +1,6 @@
 #variantRules {
   margin-top: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   text-align: center;
 }
 #variantRules h1 {
@@ -16,8 +16,54 @@
   text-align: start;
   margin-bottom: 10px;
   font-size: 18px;
+  font-weight: 600;
 }
 #variantRules p {
   font-size: 14px;
   margin-bottom: 10px;
+}
+#variantRules .howToWin ol {
+  padding: 0px 0px 20px 15px;
+}
+#variantRules .handWalkthrough .handFase h3 {
+  font-weight: 600;
+}
+#variantRules .handWalkthrough .handFase ul li {
+  font-size: 14px;
+}
+#variantRules .conclusion .learnVariantBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  padding-top: 10px;
+}
+#variantRules .conclusion .learnVariantBtns .practice {
+  background: linear-gradient(330deg, rgb(185, 62, 9) 0%, rgb(215, 81, 32) 49%, rgb(243, 101, 49) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+}
+#variantRules .conclusion .learnVariantBtns .quizz {
+  background: linear-gradient(330deg, rgb(207, 117, 27) 0%, rgb(215, 123, 32) 49%, rgb(243, 123, 49) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+}
+#variantRules .conclusion .learnVariantBtns .practice,
+#variantRules .conclusion .learnVariantBtns .quizz {
+  font-size: 14px;
+  padding: 5px 10px;
 }/*# sourceMappingURL=variantRules.css.map */
