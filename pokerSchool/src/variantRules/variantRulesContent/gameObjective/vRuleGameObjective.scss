@@ -1,0 +1,19 @@
+@use '../../assets/baseStyles' as *;
+
+.gameObjective {
+    padding: $sectionPadding;
+    margin-bottom: 30px;
+    text-align: start;
+
+    h2 {
+        text-align: start;
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}

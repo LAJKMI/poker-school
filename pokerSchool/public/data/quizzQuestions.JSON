@@ -1,0 +1,1242 @@
+[
+    {
+        "id": "texasholdem",
+        "quizQuestions": [
+            {
+                "question": "What are the two forced bets in Texas Hold'em, and what is their purpose?",
+                "choices": [
+                    "Ante and Rake, to create a pot",
+                    "Small blind and Big blind, to start the betting action",
+                    "Call and Raise, to make players act",
+                    "Flop and River, to start the hand"
+                ],
+                "answer": "Small blind and Big blind, to start the betting action"
+            },
+            {
+                "question": "How many hole cards does each player receive at the beginning of a Texas Hold'em hand?",
+                "choices": [
+                    "5",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "2"
+            },
+            {
+                "question": "What is the difference between the small blind and the big blind?",
+                "choices": [
+                    "The small blind is posted by the player to the dealer's left, the big blind is posted by the player to the left of the small blind",
+                    "The small blind is equal to the big blind, but the big blind comes later in the game",
+                    "The small blind is always half the amount of the big blind",
+                    "The big blind is placed before the small blind"
+                ],
+                "answer": "The small blind is always half the amount of the big blind"
+            },
+            {
+                "question": "In what order do the betting rounds take place in Texas Hold'em?",
+                "choices": [
+                    "Pre-flop, Flop, River, Turn",
+                    "Pre-flop, Flop, Turn, River",
+                    "Flop, River, Pre-flop, Turn",
+                    "Pre-flop, Turn, Flop, River"
+                ],
+                "answer": "Pre-flop, Flop, Turn, River"
+            },
+            {
+                "question": "What is the dealer button, and how does it rotate during the game?",
+                "choices": [
+                    "It determines the player who acts first; it rotates clockwise every round",
+                    "It decides who posts the small blind; it rotates counterclockwise every round",
+                    "It marks who the dealer is; it rotates clockwise every round",
+                    "It indicates who can raise; it rotates counterclockwise every round"
+                ],
+                "answer": "It marks who the dealer is; it rotates clockwise every round"
+            },
+            {
+                "question": "What is a 'community card,' and how many community cards are dealt in total in Texas Hold'em?",
+                "choices": [
+                    "A card shared by all players; 5 cards are dealt in total",
+                    "A card that only the player can use; 5 cards are dealt in total",
+                    "A card that is kept secret; 3 cards are dealt in total",
+                    "A card dealt after the river; 4 cards are dealt in total"
+                ],
+                "answer": "A card shared by all players; 5 cards are dealt in total"
+            },
+            {
+                "question": "What is the purpose of the 'flop,' 'turn,' and 'river' in Texas Hold'em?",
+                "choices": [
+                    "They are dealt to increase the number of available community cards",
+                    "They are actions taken by players before betting",
+                    "They are the names for the different betting rounds",
+                    "They represent the dealer's hand"
+                ],
+                "answer": "They are dealt to increase the number of available community cards"
+            },
+            {
+                "question": "Can a player bet any amount they want during a betting round in Texas Hold'em, or are there specific limits?",
+                "choices": [
+                    "Players can only bet in fixed increments during the betting rounds",
+                    "Players can only raise by a fixed amount during the betting rounds",
+                    "Players can bet any amount, depending on the format of the game",
+                    "Players are not allowed to bet at all"
+                ],
+                "answer": "Players can bet any amount, depending on the format of the game"
+            },
+            {
+                "question": "When does the showdown occur in Texas Hold'em?",
+                "choices": [
+                    "After the flop is dealt",
+                    "After the river is dealt, when there are still active players",
+                    "After the turn is dealt",
+                    "After the first round of betting"
+                ],
+                "answer": "After the river is dealt, when there are still active players"
+            },
+            {
+                "question": "What happens if two players have the same hand at the showdown in Texas Hold'em?",
+                "choices": [
+                    "The player closest to the dealer wins",
+                    "The players share the pot equally",
+                    "The dealer breaks the tie with the kicker card",
+                    "The player with the highest community card wins"
+                ],
+                "answer": "The players share the pot equally"
+            },
+            {
+                "question": "What is meant by 'checking' in a poker game?",
+                "choices": [
+                    "Betting the minimum amount allowed",
+                    "Declining to bet but keeping the option to call or raise",
+                    "Revealing one's hand during a showdown",
+                    "Placing a bet when no one else has bet yet"
+                ],
+                "answer": "Declining to bet but keeping the option to call or raise"
+            },
+            {
+                "question": "What does it mean for a player to 'fold' in Texas Hold'em?",
+                "choices": [
+                    "To bet a large amount of chips",
+                    "To reveal their cards during the showdown",
+                    "To discard their cards and end their participation in the round",
+                    "To call the most recent bet"
+                ],
+                "answer": "To discard their cards and end their participation in the round"
+            },
+            {
+                "question": "What does 'raising' mean in a betting round?",
+                "choices": [
+                    "To pass on your turn",
+                    "To increase the current bet by a specified amount",
+                    "To check and stay in the game",
+                    "To reveal your hand before the showdown"
+                ],
+                "answer": "To increase the current bet by a specified amount"
+            },
+            {
+                "question": "What action is taken if no player raises during the first betting round?",
+                "choices": [
+                    "The game ends and the pot is divided evenly",
+                    "The dealer decides who wins the pot",
+                    "The next round begins without a raise",
+                    "The blinds are increased automatically"
+                ],
+                "answer": "The next round begins without a raise"
+            },
+            {
+                "question": "In Texas Hold'em, how is the winner determined if there are no more betting rounds after the river?",
+                "choices": [
+                    "The player with the highest-ranking hand wins",
+                    "The dealer decides who wins",
+                    "The player who contributed the most to the pot wins",
+                    "The players must split the pot equally"
+                ],
+                "answer": "The player with the highest-ranking hand wins"
+            }
+        ]
+    },
+    {
+        "id": "razz",
+        "quizQuestions": [
+            {
+                "question": "What is the objective of Razz poker?",
+                "choices": [
+                    "Make the highest hand possible",
+                    "Make the lowest hand possible",
+                    "Have the most pairs",
+                    "Get a full house"
+                ],
+                "answer": "Make the lowest hand possible"
+            },
+            {
+                "question": "How many cards does each player receive at the start of a Razz hand?",
+                "choices": [
+                    "Two cards face-up",
+                    "Three cards face-down",
+                    "Seven cards (three face-down, four face-up)",
+                    "Five cards face-up"
+                ],
+                "answer": "Seven cards (three face-down, four face-up)"
+            },
+            {
+                "question": "In Razz, what is the significance of the highest face-up card on the board?",
+                "choices": [
+                    "It determines the dealer",
+                    "It dictates the first player to act",
+                    "It can trigger an automatic fold",
+                    "It sets the betting amount"
+                ],
+                "answer": "It dictates the first player to act"
+            },
+            {
+                "question": "What is the term for the first forced bet in Razz, and who posts it?",
+                "choices": [
+                    "Ante, posted by the dealer",
+                    "Small blind, posted by the player to the left of the dealer",
+                    "Bring-in, posted by the player with the highest face-up card",
+                    "Big blind, posted by the player two seats left of the dealer"
+                ],
+                "answer": "Bring-in, posted by the player with the highest face-up card"
+            },
+            {
+                "question": "How many betting rounds are there in a typical Razz hand?",
+                "choices": [
+                    "Two betting rounds",
+                    "Three betting rounds",
+                    "Four betting rounds",
+                    "Five betting rounds"
+                ],
+                "answer": "Four betting rounds"
+            },
+            {
+                "question": "Which cards are dealt face-up in Razz poker?",
+                "choices": [
+                    "All cards are face-up",
+                    "The first three cards are face-up",
+                    "Players receive three face-down cards and four face-up cards",
+                    "The first card is face-up, followed by face-down cards"
+                ],
+                "answer": "Players receive three face-down cards and four face-up cards"
+            },
+            {
+                "question": "How does the betting structure in Razz differ from games like Texas Hold'em?",
+                "choices": [
+                    "There is only one betting round",
+                    "Betting happens in every round in Razz, regardless of the hand",
+                    "Razz has fixed betting rounds, while Texas Hold'em has no limits",
+                    "Razz features a bring-in bet and specific betting rules based on the face-up cards"
+                ],
+                "answer": "Razz features a bring-in bet and specific betting rules based on the face-up cards"
+            },
+            {
+                "question": "In Razz, are flushes and straights counted against you when determining the lowest hand?",
+                "choices": [
+                    "Yes, flushes and straights are ignored in Razz",
+                    "No, flushes and straights count against the player's hand",
+                    "Yes, flushes and straights make your hand higher",
+                    "No, only pairs and higher hands are counted against you"
+                ],
+                "answer": "No, flushes and straights count against the player's hand"
+            },
+            {
+                "question": "How do aces rank in Razz poker?",
+                "choices": [
+                    "Aces are the highest cards",
+                    "Aces can only be used in pairs",
+                    "Aces are the lowest cards",
+                    "Aces are ignored"
+                ],
+                "answer": "Aces are the lowest cards"
+            },
+            {
+                "question": "What is the best possible hand in Razz, and what is it called?",
+                "choices": [
+                    "Royal Flush",
+                    "Ace-King-Queen",
+                    "5-4-3-2-Ace (also called the 'wheel')",
+                    "Full House"
+                ],
+                "answer": "5-4-3-2-Ace (also called the 'wheel')"
+            },
+            {
+                "question": "How is the winner of a Razz hand determined at the showdown?",
+                "choices": [
+                    "The player with the highest hand wins",
+                    "The player with the lowest hand wins",
+                    "The player who completes their hand first wins",
+                    "The player with the most cards wins"
+                ],
+                "answer": "The player with the lowest hand wins"
+            },
+            {
+                "question": "What happens if two players have identical low hands in Razz?",
+                "choices": [
+                    "The hand is a draw, and no one wins the pot",
+                    "The player with the higher kicker wins",
+                    "The pot is split evenly between the two players",
+                    "The player with the most face-up cards wins"
+                ],
+                "answer": "The pot is split evenly between the two players"
+            },
+            {
+                "question": "What is the role of position in Razz, and why is it important?",
+                "choices": [
+                    "Position doesn't matter in Razz",
+                    "Players in early position have more information",
+                    "Players in late position have more information and can control the pot better",
+                    "Players in the middle position are the most powerful"
+                ],
+                "answer": "Players in late position have more information and can control the pot better"
+            },
+            {
+                "question": "Can a player fold during any of the betting rounds in Razz?",
+                "choices": [
+                    "No, players can never fold in Razz",
+                    "Yes, players can fold at any time",
+                    "Yes, but only after the third round",
+                    "No, folding is not allowed after the flop"
+                ],
+                "answer": "Yes, players can fold at any time"
+            },
+            {
+                "question": "What is the general strategy for selecting starting hands in Razz poker?",
+                "choices": [
+                    "Always play high cards",
+                    "Focus on low hands, especially cards 8 or lower, and avoid face cards",
+                    "Always play pairs, even if they're high",
+                    "Play hands that could potentially form a straight or flush"
+                ],
+                "answer": "Focus on low hands, especially cards 8 or lower, and avoid face cards"
+            }
+        ]
+    },
+    {
+        "id": "horse",
+        "quizQuestions": [
+            {
+                "question": "What does the acronym H.O.R.S.E. stand for in poker?",
+                "choices": [
+                    "High, Odd, Red, Suited, Even",
+                    "Hold, Open, Raise, Split, Eliminate",
+                    "Texas, Omaha, Razz, Stud, Eliminate",
+                    "Hold'em, Omaha, Razz, Seven-Card Stud, Eight-or-Better"
+                ],
+                "answer": "Hold'em, Omaha, Razz, Seven-Card Stud, Eight-or-Better"
+            },
+            {
+                "question": "Which game is played first in a standard H.O.R.S.E. rotation?",
+                "choices": [
+                    "Seven-Card Stud",
+                    "Razz",
+                    "Omaha",
+                    "Texas Hold'em"
+                ],
+                "answer": "Texas Hold'em"
+            },
+            {
+                "question": "In the H.O.R.S.E. format, how many total games are played in one full rotation?",
+                "choices": [
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "Which game in H.O.R.S.E. requires players to use five community cards and two hole cards to make the best hand?",
+                "choices": [
+                    "Omaha",
+                    "Seven-Card Stud",
+                    "Texas Hold'em",
+                    "Razz"
+                ],
+                "answer": "Texas Hold'em"
+            },
+            {
+                "question": "Which of the following is true about the Razz game in H.O.R.S.E.?",
+                "choices": [
+                    "The goal is to get the highest hand",
+                    "Players use community cards to create their hand",
+                    "Aces are considered high",
+                    "The goal is to make the lowest possible hand"
+                ],
+                "answer": "The goal is to make the lowest possible hand"
+            },
+            {
+                "question": "In the Seven-Card Stud game, how many cards are dealt face up?",
+                "choices": [
+                    "1",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answer": "3"
+            },
+            {
+                "question": "In the Eight-or-Better variation of Seven-Card Stud, what hand qualifies as a 'low' hand?",
+                "choices": [
+                    "Pair of Sevens",
+                    "5-4-3-2-A",
+                    "Full House",
+                    "King-high"
+                ],
+                "answer": "5-4-3-2-A"
+            },
+            {
+                "question": "In the Omaha portion of H.O.R.S.E., how many hole cards are dealt to each player?",
+                "choices": [
+                    "3",
+                    "4",
+                    "5",
+                    "2"
+                ],
+                "answer": "4"
+            },
+            {
+                "question": "What is the primary goal in a Seven-Card Stud game in H.O.R.S.E.?",
+                "choices": [
+                    "To get the lowest hand",
+                    "To make the best five-card hand from your seven cards",
+                    "To form a flush",
+                    "To use all the community cards"
+                ],
+                "answer": "To make the best five-card hand from your seven cards"
+            },
+            {
+                "question": "In H.O.R.S.E., how is the rotation of games handled?",
+                "choices": [
+                    "The dealer chooses the game each round",
+                    "The games rotate in a predetermined order",
+                    "Players vote on the next game to play",
+                    "Players can pick their preferred game each time"
+                ],
+                "answer": "The games rotate in a predetermined order"
+            },
+            {
+                "question": "In which game of H.O.R.S.E. are wild cards used?",
+                "choices": [
+                    "Texas Hold'em",
+                    "Omaha",
+                    "Razz",
+                    "None of the above"
+                ],
+                "answer": "None of the above"
+            },
+            {
+                "question": "What is the primary distinction of Eight-or-Better in Seven-Card Stud within H.O.R.S.E.?",
+                "choices": [
+                    "You are required to use all seven cards",
+                    "The best hand is determined by high cards only",
+                    "The best low hand must have five cards ranked 8 or lower",
+                    "There are no community cards"
+                ],
+                "answer": "The best low hand must have five cards ranked 8 or lower"
+            },
+            {
+                "question": "How many community cards are dealt in Texas Hold'em during a H.O.R.S.E. game?",
+                "choices": [
+                    "5",
+                    "3",
+                    "7",
+                    "9"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "In H.O.R.S.E., what is the maximum number of betting rounds in a single hand?",
+                "choices": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "answer": "4"
+            },
+            {
+                "question": "Which of the following hands would win in a Razz game in H.O.R.S.E.?",
+                "choices": [
+                    "7-6-5-3-2",
+                    "A-Q-K-J-10",
+                    "J-J-J-J-J",
+                    "8-7-6-4-3"
+                ],
+                "answer": "7-6-5-3-2"
+            }
+        ]
+    },
+    {
+        "id": "pineapple",
+        "quizQuestions": [
+            {
+                "question": "How many hole cards are dealt to each player in Pineapple?",
+                "choices": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answer": "3"
+            },
+            {
+                "question": "What must each player do with their hole cards in Pineapple after the flop is dealt?",
+                "choices": [
+                    "Keep all three cards",
+                    "Discard one card",
+                    "Discard two cards",
+                    "Reveal all three cards"
+                ],
+                "answer": "Discard one card"
+            },
+            {
+                "question": "In Pineapple, which round does the community cards start being revealed?",
+                "choices": [
+                    "Pre-flop",
+                    "Post-flop",
+                    "Post-turn",
+                    "Post-river"
+                ],
+                "answer": "Post-flop"
+            },
+            {
+                "question": "What is the main difference between Pineapple and Texas Hold'em?",
+                "choices": [
+                    "Players receive more hole cards in Pineapple",
+                    "There are fewer community cards in Pineapple",
+                    "The blinds are larger in Pineapple",
+                    "Players don't need to discard cards in Pineapple"
+                ],
+                "answer": "Players receive more hole cards in Pineapple"
+            },
+            {
+                "question": "How many betting rounds are there in Pineapple?",
+                "choices": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answer": "4"
+            },
+            {
+                "question": "What is the action taken by the dealer after the river card is dealt?",
+                "choices": [
+                    "The dealer checks",
+                    "The dealer deals another community card",
+                    "The dealer announces the winner",
+                    "The dealer starts a new hand"
+                ],
+                "answer": "The dealer announces the winner"
+            },
+            {
+                "question": "In Pineapple, what must a player do if they want to stay in the hand?",
+                "choices": [
+                    "Call the big blind",
+                    "Raise the big blind",
+                    "Fold their cards",
+                    "All of the above"
+                ],
+                "answer": "Call the big blind"
+            },
+            {
+                "question": "What happens if two players have the same hand at the showdown in Pineapple?",
+                "choices": [
+                    "The first player wins",
+                    "The hand is canceled",
+                    "The pot is split equally",
+                    "The second player wins"
+                ],
+                "answer": "The pot is split equally"
+            },
+            {
+                "question": "In Pineapple, which card combination is the strongest hand you can form?",
+                "choices": [
+                    "Full House",
+                    "Royal Flush",
+                    "Straight Flush",
+                    "Four of a Kind"
+                ],
+                "answer": "Royal Flush"
+            },
+            {
+                "question": "How is the dealer selected in Pineapple?",
+                "choices": [
+                    "It rotates clockwise around the table",
+                    "The dealer is always the first player",
+                    "The dealer is randomly chosen for each hand",
+                    "The dealer is the player with the most chips"
+                ],
+                "answer": "It rotates clockwise around the table"
+            },
+            {
+                "question": "When does the player discard one hole card in Pineapple?",
+                "choices": [
+                    "After the river",
+                    "After the flop",
+                    "After the turn",
+                    "Before the community cards are dealt"
+                ],
+                "answer": "After the flop"
+            },
+            {
+                "question": "Which of the following hands would be the weakest in Pineapple?",
+                "choices": [
+                    "Pair of Aces",
+                    "Straight Flush",
+                    "Full House",
+                    "One Pair"
+                ],
+                "answer": "One Pair"
+            },
+            {
+                "question": "What is the smallest bet a player can make during the pre-flop round in Pineapple?",
+                "choices": [
+                    "The big blind",
+                    "The small blind",
+                    "Half of the big blind",
+                    "Any amount"
+                ],
+                "answer": "The big blind"
+            },
+            {
+                "question": "Which of these is a community card in Pineapple?",
+                "choices": [
+                    "Your hole cards",
+                    "The cards dealt to each player",
+                    "The face-up cards shared by all players",
+                    "The cards discarded by the players"
+                ],
+                "answer": "The face-up cards shared by all players"
+            },
+            {
+                "question": "In Pineapple, what is the primary reason players discard one hole card after the flop?",
+                "choices": [
+                    "To keep the game more balanced",
+                    "To allow more room for stronger hands",
+                    "To reduce the amount of time spent playing",
+                    "To increase the pot size"
+                ],
+                "answer": "To allow more room for stronger hands"
+            }
+        ]
+    },
+    {
+        "id": "omaha",
+        "quizQuestions": [
+            {
+                "question": "What is the goal of Omaha poker?",
+                "choices": [
+                    "To make the best five-card hand using only the hole cards",
+                    "To make the best five-card hand using any combination of hole cards and community cards",
+                    "To win by having the highest chip stack at the end of the game",
+                    "To get the best straight hand"
+                ],
+                "answer": "To make the best five-card hand using any combination of hole cards and community cards"
+            },
+            {
+                "question": "How many hole cards are dealt to each player in Omaha?",
+                "choices": [
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "answer": "4"
+            },
+            {
+                "question": "How many community cards are dealt in Omaha?",
+                "choices": [
+                    "3",
+                    "4",
+                    "5",
+                    "7"
+                ],
+                "answer": "5"
+            },
+            {
+                "question": "In Omaha, how many of the hole cards must be used to make the best five-card hand?",
+                "choices": [
+                    "1 hole card",
+                    "2 hole cards",
+                    "3 hole cards",
+                    "4 hole cards"
+                ],
+                "answer": "2 hole cards"
+            },
+            {
+                "question": "What happens during the pre-flop betting round in Omaha?",
+                "choices": [
+                    "The dealer shows 3 community cards",
+                    "Players receive 4 hole cards each",
+                    "The big blind is doubled",
+                    "The players exchange one hole card"
+                ],
+                "answer": "Players receive 4 hole cards each"
+            },
+            {
+                "question": "What is the purpose of the small blind and big blind in Omaha?",
+                "choices": [
+                    "To make sure there is a bet before the community cards are dealt",
+                    "To allow players to see all hole cards",
+                    "To prevent players from folding too early",
+                    "To give players a chance to change their hole cards"
+                ],
+                "answer": "To make sure there is a bet before the community cards are dealt"
+            },
+            {
+                "question": "How does the betting round proceed after the flop in Omaha?",
+                "choices": [
+                    "Players can only check or fold",
+                    "Players can bet, check, raise, or fold",
+                    "Players are dealt a new hand",
+                    "Players reveal their hole cards"
+                ],
+                "answer": "Players can bet, check, raise, or fold"
+            },
+            {
+                "question": "In Omaha, if a player has a straight, what is the highest possible straight?",
+                "choices": [
+                    "10-J-Q-K-A (Ace is low)",
+                    "A-2-3-4-5 (Ace is high)",
+                    "5-6-7-8-9 (Ace is low)",
+                    "9-10-J-Q-K (Ace is high)"
+                ],
+                "answer": "9-10-J-Q-K (Ace is high)"
+            },
+            {
+                "question": "What happens after the river in Omaha?",
+                "choices": [
+                    "Players have a chance to exchange one hole card",
+                    "There is a final round of betting before the showdown",
+                    "Players discard their hands",
+                    "The dealer shuffles and deals a new hand"
+                ],
+                "answer": "There is a final round of betting before the showdown"
+            },
+            {
+                "question": "Which of these hands is the best in Omaha?",
+                "choices": [
+                    "A pair of twos",
+                    "A flush",
+                    "A straight flush",
+                    "A full house"
+                ],
+                "answer": "A straight flush"
+            },
+            {
+                "question": "How do you win a pot in Omaha?",
+                "choices": [
+                    "By having the highest chip stack at the end of the hand",
+                    "By making the best five-card hand using exactly two hole cards and three community cards",
+                    "By bluffing until everyone folds",
+                    "By having a full hand of matching hole cards"
+                ],
+                "answer": "By making the best five-card hand using exactly two hole cards and three community cards"
+            },
+            {
+                "question": "What does the term 'pot-limit' mean in Omaha?",
+                "choices": [
+                    "Players can bet any amount they want at any time",
+                    "Players can only raise a set number of times",
+                    "The maximum bet is the current size of the pot",
+                    "The dealer sets a limit for each round"
+                ],
+                "answer": "The maximum bet is the current size of the pot"
+            },
+            {
+                "question": "In Omaha, when is the 'turn' dealt?",
+                "choices": [
+                    "After the pre-flop betting round",
+                    "After the flop",
+                    "After the river",
+                    "Before the community cards"
+                ],
+                "answer": "After the flop"
+            },
+            {
+                "question": "What is the maximum number of hole cards a player can use in Omaha to make a hand?",
+                "choices": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "2"
+            },
+            {
+                "question": "What is the role of the 'dealer button' in Omaha?",
+                "choices": [
+                    "It determines who posts the blinds",
+                    "It shows the community cards",
+                    "It decides the order of betting",
+                    "It is used to shuffle the deck"
+                ],
+                "answer": "It determines who posts the blinds"
+            }
+        ]
+    },
+    {
+        "id": "sevencardstud",
+        "quizQuestions": [
+            {
+                "question": "What is the maximum number of players in a Seven Card Stud game?",
+                "choices": [
+                    "6",
+                    "8",
+                    "10",
+                    "5"
+                ],
+                "answer": "8"
+            },
+            {
+                "question": "How many cards does each player receive in Seven Card Stud?",
+                "choices": [
+                    "5",
+                    "7",
+                    "8",
+                    "6"
+                ],
+                "answer": "7"
+            },
+            {
+                "question": "In Seven Card Stud, how many of the player's cards are face-up (known as 'door' cards)?",
+                "choices": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "1"
+            },
+            {
+                "question": "In Seven Card Stud, what is the name of the first round of betting?",
+                "choices": [
+                    "Flop",
+                    "Pre-flop",
+                    "Third Street",
+                    "Fourth Street"
+                ],
+                "answer": "Third Street"
+            },
+            {
+                "question": "What happens during the Fourth Street round in Seven Card Stud?",
+                "choices": [
+                    "The first community card is dealt",
+                    "Players receive a new hole card",
+                    "The second betting round occurs",
+                    "Players reveal all of their cards"
+                ],
+                "answer": "The second betting round occurs"
+            },
+            {
+                "question": "When does the final betting round occur in Seven Card Stud?",
+                "choices": [
+                    "After the River card is dealt",
+                    "After the Sixth Street card is dealt",
+                    "After the seventh card is dealt",
+                    "After the Flop is revealed"
+                ],
+                "answer": "After the seventh card is dealt"
+            },
+            {
+                "question": "In Seven Card Stud, how many betting rounds are there in total?",
+                "choices": [
+                    "3",
+                    "4",
+                    "5",
+                    "6"
+                ],
+                "answer": "4"
+            },
+            {
+                "question": "What is the purpose of the 'bring-in' bet in Seven Card Stud?",
+                "choices": [
+                    "To start the first betting round",
+                    "To force the player to make the first move",
+                    "To pay for the player's hole cards",
+                    "To declare the winner after the River"
+                ],
+                "answer": "To force the player to make the first move"
+            },
+            {
+                "question": "How is the bring-in amount determined in Seven Card Stud?",
+                "choices": [
+                    "It's a fixed amount set by the house",
+                    "The player with the lowest face-up card posts the bring-in",
+                    "The player with the highest face-up card posts the bring-in",
+                    "The amount is based on the community cards"
+                ],
+                "answer": "The player with the lowest face-up card posts the bring-in"
+            },
+            {
+                "question": "What is the minimum hand needed to make a pair in Seven Card Stud?",
+                "choices": [
+                    "Pair of Jacks",
+                    "Pair of Kings",
+                    "Pair of Tens",
+                    "Pair of Aces"
+                ],
+                "answer": "Pair of Jacks"
+            },
+            {
+                "question": "What does the term 'Fourth Street' refer to in Seven Card Stud?",
+                "choices": [
+                    "The second round of betting",
+                    "The fourth community card dealt",
+                    "The first face-up card dealt to players",
+                    "The third round of betting after the Turn"
+                ],
+                "answer": "The second round of betting"
+            },
+            {
+                "question": "When are the last two cards dealt in Seven Card Stud?",
+                "choices": [
+                    "After the betting on Fifth Street",
+                    "At the same time as the River card",
+                    "One at a time on Sixth Street and Seventh Street",
+                    "Both on the Flop"
+                ],
+                "answer": "One at a time on Sixth Street and Seventh Street"
+            },
+            {
+                "question": "In Seven Card Stud, which cards are community cards?",
+                "choices": [
+                    "There are no community cards in Seven Card Stud",
+                    "The first three face-up cards",
+                    "The last three face-up cards",
+                    "The dealer's cards are the community cards"
+                ],
+                "answer": "There are no community cards in Seven Card Stud"
+            },
+            {
+                "question": "What is the best possible hand in Seven Card Stud?",
+                "choices": [
+                    "Royal Flush",
+                    "Straight Flush",
+                    "Four of a Kind",
+                    "Full House"
+                ],
+                "answer": "Royal Flush"
+            },
+            {
+                "question": "How are ties broken in Seven Card Stud when two players have the same hand?",
+                "choices": [
+                    "By the highest card in the hand",
+                    "By the dealer's hand",
+                    "By the highest pair in the hand",
+                    "By the next highest card"
+                ],
+                "answer": "By the highest card in the hand"
+            }
+        ]
+    },
+    {
+        "id": "fivecarddraw",
+        "quizQuestions": [
+            {
+                "question": "How many cards are dealt to each player at the start of a Five Card Draw game?",
+                "choices": [
+                    "3 cards",
+                    "5 cards",
+                    "7 cards",
+                    "2 cards"
+                ],
+                "answer": "5 cards"
+            },
+            {
+                "question": "In Five Card Draw, which of the following is true about the number of betting rounds?",
+                "choices": [
+                    "One betting round",
+                    "Two betting rounds",
+                    "Three betting rounds",
+                    "Four betting rounds"
+                ],
+                "answer": "Two betting rounds"
+            },
+            {
+                "question": "When does the second round of betting occur in Five Card Draw?",
+                "choices": [
+                    "After the initial deal",
+                    "After the first round of discarding",
+                    "After the community cards are revealed",
+                    "After the dealer shuffles the cards"
+                ],
+                "answer": "After the first round of discarding"
+            },
+            {
+                "question": "What happens during the draw phase of Five Card Draw?",
+                "choices": [
+                    "Players discard some or all of their cards and receive new ones",
+                    "Players bet on their hands",
+                    "Community cards are dealt",
+                    "Players reveal their cards"
+                ],
+                "answer": "Players discard some or all of their cards and receive new ones"
+            },
+            {
+                "question": "How many cards can a player discard and replace in Five Card Draw?",
+                "choices": [
+                    "1 to 3 cards",
+                    "All 5 cards",
+                    "1 to 5 cards",
+                    "2 cards only"
+                ],
+                "answer": "1 to 5 cards"
+            },
+            {
+                "question": "What is the object of Five Card Draw?",
+                "choices": [
+                    "To make the best five-card hand using your own cards and community cards",
+                    "To draw the most cards from the deck",
+                    "To have the lowest five-card hand",
+                    "To make the best five-card hand using only your dealt cards"
+                ],
+                "answer": "To make the best five-card hand using only your dealt cards"
+            },
+            {
+                "question": "In Five Card Draw, how do you win the hand?",
+                "choices": [
+                    "By having the highest card",
+                    "By having the best hand after the second round of betting",
+                    "By having the best five-card hand, based on traditional poker rankings",
+                    "By bluffing all other players to fold"
+                ],
+                "answer": "By having the best five-card hand, based on traditional poker rankings"
+            },
+            {
+                "question": "Which of the following hands is ranked the highest in Five Card Draw?",
+                "choices": [
+                    "Pair of Aces",
+                    "Full House",
+                    "Four of a Kind",
+                    "Royal Flush"
+                ],
+                "answer": "Royal Flush"
+            },
+            {
+                "question": "In Five Card Draw, what happens if two players have the same hand at the showdown?",
+                "choices": [
+                    "The game is void",
+                    "The dealer wins",
+                    "The player with the highest kickers wins",
+                    "The players split the pot"
+                ],
+                "answer": "The player with the highest kickers wins"
+            },
+            {
+                "question": "Who starts the betting in the first round of Five Card Draw?",
+                "choices": [
+                    "The player to the dealer’s right",
+                    "The player to the dealer’s left",
+                    "The player who has the most chips",
+                    "The player with the lowest hand"
+                ],
+                "answer": "The player to the dealer’s left"
+            },
+            {
+                "question": "What is the role of the 'small blind' and 'big blind' in Five Card Draw?",
+                "choices": [
+                    "They are optional bets made by the players before the hand starts",
+                    "They are forced bets made before the cards are dealt to ensure there is action",
+                    "They are placed after the first betting round",
+                    "They are only used when a player is all-in"
+                ],
+                "answer": "They are forced bets made before the cards are dealt to ensure there is action"
+            },
+            {
+                "question": "What should a player do if they have no strong hand in Five Card Draw?",
+                "choices": [
+                    "Raise the bet to bluff",
+                    "Fold their cards",
+                    "Draw all five cards",
+                    "Call the current bet"
+                ],
+                "answer": "Fold their cards"
+            },
+            {
+                "question": "How many players can participate in a Five Card Draw game?",
+                "choices": [
+                    "2 to 8 players",
+                    "2 to 10 players",
+                    "4 to 12 players",
+                    "3 to 7 players"
+                ],
+                "answer": "2 to 10 players"
+            },
+            {
+                "question": "What is the 'draw' phase in Five Card Draw?",
+                "choices": [
+                    "The phase where the dealer gives out extra cards",
+                    "The phase where players discard unwanted cards and receive new ones",
+                    "The phase where players reveal their hands",
+                    "The phase where players make a final bet"
+                ],
+                "answer": "The phase where players discard unwanted cards and receive new ones"
+            },
+            {
+                "question": "Which hand is ranked higher in Five Card Draw?",
+                "choices": [
+                    "Full House",
+                    "Three of a Kind",
+                    "Pair of Kings",
+                    "Two Pair"
+                ],
+                "answer": "Full House"
+            }
+        ]
+    },
+    {
+        "id": "eightorbetter",
+        "quizQuestions": [
+            {
+                "question": "What is the primary objective in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "To have the highest five-card hand",
+                    "To have the lowest five-card hand",
+                    "To have both the highest and the lowest five-card hand",
+                    "To make the best hand with any five cards"
+                ],
+                "answer": "To have both the highest and the lowest five-card hand"
+            },
+            {
+                "question": "What qualifies as a 'low hand' in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "A hand with cards higher than 8",
+                    "A hand with five cards ranked 8 or lower",
+                    "A hand with three face cards",
+                    "A hand with four suited cards"
+                ],
+                "answer": "A hand with five cards ranked 8 or lower"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, how many hole cards does each player receive?",
+                "choices": [
+                    "Two",
+                    "Three",
+                    "Four",
+                    "Five"
+                ],
+                "answer": "Four"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, which hand can win the high portion of the pot?",
+                "choices": [
+                    "Any hand with a pair",
+                    "A hand with the best possible five cards",
+                    "A hand with an Ace and a King",
+                    "A flush"
+                ],
+                "answer": "A hand with the best possible five cards"
+            },
+            {
+                "question": "What is the minimum hand that qualifies for the 'low' portion of the pot in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "A straight",
+                    "A flush",
+                    "A five-card hand with cards ranked 8 or lower",
+                    "Any hand with no pairs"
+                ],
+                "answer": "A five-card hand with cards ranked 8 or lower"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, what is the '8 or better' rule?",
+                "choices": [
+                    "A player must have 8 cards in total to qualify",
+                    "The lowest hand must have cards ranked 8 or lower",
+                    "The highest hand must have cards ranked 8 or higher",
+                    "A player must have an 8 in their hand to win"
+                ],
+                "answer": "The lowest hand must have cards ranked 8 or lower"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, how many community cards are dealt to the table?",
+                "choices": [
+                    "Four",
+                    "Five",
+                    "Six",
+                    "Seven"
+                ],
+                "answer": "Five"
+            },
+            {
+                "question": "What hand qualifies for both the high and low portion of the pot in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "A straight",
+                    "A flush with Ace-2-3-4-5",
+                    "A hand with a pair of Aces",
+                    "A full house"
+                ],
+                "answer": "A flush with Ace-2-3-4-5"
+            },
+            {
+                "question": "Which of these hands would NOT qualify for the low portion in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "2♠ 3♠ 4♣ 5♦",
+                    "7♠ 8♣ 9♦ 10♠",
+                    "4♣ 5♠ 6♦ 7♥",
+                    "A♠ 2♦ 3♥ 4♠"
+                ],
+                "answer": "7♠ 8♣ 9♦ 10♠"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, can a player win both the high and low portions of the pot?",
+                "choices": [
+                    "No, only one portion can be won",
+                    "Yes, if the best high hand is the same as the best low hand",
+                    "Yes, but only if there are more than three players",
+                    "No, it is impossible to win both pots"
+                ],
+                "answer": "Yes, if the best high hand is the same as the best low hand"
+            },
+            {
+                "question": "Which of these is NOT a valid hand for the low portion of the pot in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "A♠ 2♣ 3♦ 4♠",
+                    "5♠ 6♦ 7♣ 8♥",
+                    "6♦ 7♠ 8♣ 9♠",
+                    "K♦ 2♠ 3♣ 5♦"
+                ],
+                "answer": "K♦ 2♠ 3♣ 5♦"
+            },
+            {
+                "question": "Which hand is the best possible high hand in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "A♠ K♠ Q♠ J♠ 10♠",
+                    "5♠ 6♠ 7♠ 8♠ 9♠",
+                    "A♠ K♥ Q♣ J♦ 10♠",
+                    "10♠ J♠ Q♠ K♠ A♠"
+                ],
+                "answer": "A♠ K♠ Q♠ J♠ 10♠"
+            },
+            {
+                "question": "When does the 'high hand' portion of the pot win in Omaha Hi/Lo 8 or Better?",
+                "choices": [
+                    "If there is only one player left in the hand",
+                    "If the player has the best possible five-card hand",
+                    "If a player has an Ace-high hand",
+                    "If the hand includes two pairs or better"
+                ],
+                "answer": "If the player has the best possible five-card hand"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, which hand would win the low portion of the pot?",
+                "choices": [
+                    "7♠ 8♠ 9♣ 10♦",
+                    "3♠ 4♣ 5♠ 6♣",
+                    "5♦ 6♠ 7♣ 8♦",
+                    "9♠ 10♦ J♠ Q♣"
+                ],
+                "answer": "3♠ 4♣ 5♠ 6♣"
+            },
+            {
+                "question": "In Omaha Hi/Lo 8 or Better, what is the significance of the 'split pot'?",
+                "choices": [
+                    "The pot is divided between two players who have equal hands",
+                    "The pot is shared equally between the highest and lowest hands",
+                    "The pot is split among all remaining players",
+                    "The pot is divided between the dealer and player with the best hand"
+                ],
+                "answer": "The pot is shared equally between the highest and lowest hands"
+            }
+        ]
+    }
+]

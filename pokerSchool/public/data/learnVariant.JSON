@@ -530,5 +530,898 @@
             "conclusionTitle": "Conclusion",
             "conclusionInfo": "H.O.R.S.E. is a great way to test your poker skills across multiple variants, each with its own set of challenges and strategies. By learning how to play all five games effectively, you can become a well-rounded poker player. Start practicing with friends or in online games to improve your understanding of these different poker types."
         }
+    },
+    {
+        "id": "pineapple",
+        "img": "/variantPictures/pineapple.png",
+        "heading": "Welcome To Pineapple",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Pineapple is to make the best five-card hand using three hole cards and five community cards. The game is similar to Texas Hold'em, but with a twist: players are initially dealt three hole cards instead of two, and must discard one of them after the first betting round (pre-flop)."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": " Pineapple can be played with 2 to 10 players."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "In Pineapple, there are two forced bets: the small blind and the big blind. These bets are made before the cards are even dealt and are designed to create action.Small Blind: The player to the left of the dealer posts this bet (usually half of the big blind).Big Blind: The player two seats to the left of the dealer posts this bet (usually the standard betting amount).These forced bets ensure that there's always something to play for, even before players start betting."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise around the table after each hand. This determines which player is the dealer for that hand, as well as who posts the blinds. In casino play, the dealer is usually a non-playing staff member, but in home games, the button moves to each player."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "In Pineapple, dealing happens pre-flop, meaning before any community cards are dealt.The dealer shuffles the deck and deals three hole cards face down to each player.Players can look at their own hole cards but should keep them hidden from others.The player to the left of the big blind starts the first betting round (pre-flop)."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": " There are four betting rounds in Pineapple: Pre-flop, Post-flop, Post-turn, and Post-river. Let's break down each one.",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Pre-Flop Betting",
+                    "bettingRoundsPartsInfo": "After everyone receives their three hole cards, the first betting round begins with the player to the left of the big blind.The player can fold, call, or raise.Fold: Discard your hand and stop participating in the current hand.Call: Match the current bet (equal to the big blind if no raises have occurred).Raise: Increase the size of the current bet.This continues clockwise around the table until everyone has had a chance to act."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Flop Betting",
+                    "bettingRoundsPartsInfo": "After the pre-flop round is complete, the dealer deals three community cards face-up in the center of the table. These cards are called the flop.A new round of betting begins with the player to the left of the dealer. This time, players can bet on the strength of their hand based on the community cards.Players can bet, check (if no one has bet), or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Turn Betting",
+                    "bettingRoundsPartsInfo": "After the flop, the dealer adds a fourth community card called the turn.Another round of betting takes place, again starting with the player to the left of the dealer.Players now have four community cards to use in combination with their hole cards to make their hand."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-River Betting",
+                    "bettingRoundsPartsInfo": "Finally, the dealer places the fifth and last community card called the river.The last betting round takes place, with the player to the left of the dealer once again beginning the betting."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": " After the final betting round (post-river), if there are two or more players left in the hand, the showdown occurs. Players reveal their hole cards, and the best five-card hand is determined by combining the hole cards and community cards."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand wins the pot. The hand rankings are the same as in traditional poker:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made"
+            ],
+            "howToWinEndNote": "If two players have the same hand, the kicker (the next highest card) is used to break the tie."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": " Play tight: As a beginner, it's important to play fewer hands and only get involved with stronger starting hands. Good starting hands include pairs, high cards (Ace, King, Queen), and suited connectors (e.g., 10♠ J♠)."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": " Late position: Players who act later in the betting rounds have more information about what others are doing. This gives them an advantage. If you're in late position, you can make more informed decisions, including bluffing or playing weaker hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Know When to Fold",
+                    "keyStrategiesPartsInfo": "Don't be afraid to fold. If you don't have a strong hand and the community cards don't help you, it's better to fold than risk losing chips."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing is an essential part of Pineapple, but it should be used carefully. As a beginner, you should only attempt bluffing when the situation makes sense. For example, bluff when you have a decent chance of winning with a weaker hand, or when the board favors a strong hand."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bet Sizing",
+                    "keyStrategiesPartsInfo": "Learn to control the size of your bets. Betting too large can scare off opponents, while betting too small may not build a pot when you have a strong hand."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre-Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ K♥ Q♣ (Ace of Spades, King of Hearts, Queen of Clubs)",
+                            "Blinds: The small blind posts 10 chips, and the big blind posts 20 chips.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 raises to 50 chips.",
+                            "You call the 50 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 130 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Flop Cards: 6♠ 9♦ K♠",
+                            "Your Hand Now: A♠ K♥ Q♣ + K♠ → Pair of Kings",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You bet 100 chips.",
+                            "Player 2 calls the 100 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 330 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Turn",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Turn Card: 3♣",
+                            "Your Hand Still: Pair of Kings",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You check behind to see the next card for free."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 320 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-River",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "River Card: K♣",
+                            "Your Hand Now: A♠ K♥ K♠ K♣ → Three of a Kind (Kings)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks again.",
+                            "You bet 200 chips.",
+                            "Player 2 calls the 200 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 770 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal three kings and win the pot"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": " You've now learned the basics of Pineapple. This game adds an exciting twist to the standard Texas Hold'em rules by starting with three hole cards and forcing players to make strategic decisions about which card to discard. Start practicing with friends or in online games, and don't worry if you lose a few hands early on—it's all part of the learning process."
+        }
+    },
+    {
+        "id": "omaha",
+        "img": "/variantPictures/omaha.png",
+        "heading": "Welcome To Omaha",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Omaha is to make the best five-card hand using exactly two of the four private hole cards dealt to you and three of the five community cards that are shared by all players. Omaha is similar to Texas Hold'em, but with more hole cards, which makes hand combinations more complex."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": " Omaha can be played with 2 to 10 players."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": " Like Texas Hold'em, Omaha uses two forced bets: the small blind and the big blind. These bets are made before the cards are even dealt and ensure there's always something to play for.Small Blind: The player to the left of the dealer posts this bet (usually half of the big blind).Big Blind: The player two seats to the left of the dealer posts this bet (usually the standard betting amount).These forced bets ensure that there's always something to play for, even before players start betting."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise around the table after each hand. This determines which player is the dealer for that hand, as well as who posts the blinds. In casino play, the dealer is usually a non-playing staff member, but in home games, the button moves to each player."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "Dealing in Omaha happens pre-flop, meaning before any community cards are dealt. The dealer shuffles the deck and deals four hole cards face down to each player. Players can look at their own hole cards but should keep them hidden from others. The player to the left of the big blind starts the first betting round (pre-flop)."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are four betting rounds in Omaha: Pre-flop, Post-flop, Post-turn, and Post-river. Let's break down each one.",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Pre-Flop Betting",
+                    "bettingRoundsPartsInfo": "After everyone receives their four hole cards, the first betting round begins with the player to the left of the big blind.The player can fold, call, or raise.Fold: Discard your hand and stop participating in the current hand.Call: Match the current bet (equal to the big blind if no raises have occurred).Raise: Increase the size of the current bet.This continues clockwise around the table until everyone has had a chance to act."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Flop Betting",
+                    "bettingRoundsPartsInfo": "After the pre-flop round is complete, the dealer deals three community cards face-up in the center of the table. These cards are called the flop.A new round of betting begins with the player to the left of the dealer. This time, players can bet on the strength of their hand based on the community cards. Players can bet, check (if no one has bet), or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-Turn Betting",
+                    "bettingRoundsPartsInfo": "After the flop, the dealer adds a fourth community card called the turn. Another round of betting takes place, again starting with the player to the left of the dealer.Players now have four community cards to use in combination with their hole cards to make their hand."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Post-River Betting",
+                    "bettingRoundsPartsInfo": "Finally, the dealer places the fifth and last community card called the river. The last betting round takes place, with the player to the left of the dealer once again beginning the betting."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": "After the final betting round (post-river), if there are two or more players left in the hand, the showdown occurs. Players reveal their hole cards, and the best five-card hand is determined by combining exactly two hole cards with three community cards."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand wins the pot. The hand rankings are the same as in traditional poker:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made"
+            ],
+            "howToWinEndNote": "If two players have the same hand, the kicker (the next highest card) is used to break the tie."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Play tight: As a beginner, it's important to play fewer hands and only get involved with stronger starting hands. Good starting hands include pairs, high cards (Ace, King, Queen), and suited connectors (e.g., 10♠ J♠). In Omaha, it's crucial to keep in mind that you must use exactly two of your hole cards."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "Late position: Players who act later in the betting rounds have more information about what others are doing. This gives them an advantage. If you're in late position, you can make more informed decisions, including bluffing or playing weaker hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Know When to Fold",
+                    "keyStrategiesPartsInfo": "Don't be afraid to fold. If you don't have a strong hand and the community cards don't help you, it's better to fold than risk losing chips."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing is an essential part of Omaha, but it should be used carefully. As a beginner, you should only attempt bluffing when the situation makes sense. For example, bluff when you have a decent chance of winning with a weaker hand or when the board favors a strong hand."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bet Sizing",
+                    "keyStrategiesPartsInfo": "Learn to control the size of your bets. Betting too large can scare off opponents, while betting too small may not build a pot when you have a strong hand."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre-Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ K♥ J♣ 10♠ (Ace of Spades, King of Hearts, Jack of Clubs, and 10 of Spades)",
+                            "Blinds: The small blind posts 10 chips, and the big blind posts 20 chips.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 raises to 50 chips.",
+                            "You call the 50 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 130 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Flop Cards: 5♠ 9♣ Q♠",
+                            "Your Hand Now: A♠ K♥ J♣ 10♠ + Q♠ → Straight (5♠ 9♣ Q♠ K♥ J♣)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 bets 100 chips.",
+                            "You raise to 250 chips, trying to build the pot.",
+                            "Player 2 calls the 250 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 630 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Turn",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Turn Card: 3♦",
+                            "Your Hand Still: Straight (5♠ 9♣ Q♠ K♥ J♣)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks.",
+                            "You bet 300 chips, confident that your straight is still strong.",
+                            "Player 2 calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 1,230 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-River",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "River Card: 7♠",
+                            "Your Final Hand: Straight (5♠ 9♣ Q♠ K♥ J♣)",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 2 checks again.",
+                            "You bet 500 chips, hoping to extract more value from your straight..",
+                            "Player 2 calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 2,230 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal the straight and win the pot"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "You've now learned the basics of Omaha. This game is all about strategy, patience, and reading your opponents. Start practicing with friends or in online games, and don't worry if you lose a few hands early on—it's all part of the learning process."
+        }
+    },
+    {
+        "id": "sevencardstud",
+        "img": "/variantPictures/sevenCardStud.png",
+        "heading": "Welcome To Seven Card Stud",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Seven Card Stud is to make the best five-card hand possible using a combination of your own hole cards and community cards. Unlike Texas Hold'em, Seven Card Stud doesn't use community cards that all players share. Instead, players each receive a combination of face-down and face-up cards over several betting rounds."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "Seven Card Stud is typically played with 2 to 8 players."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Antes",
+                    "setupPartsInfo": "Before the hand begins, all players are required to place an ante, a small bet that ensures there's money in the pot to play for."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer is chosen randomly at the beginning of the game, and the dealer button rotates clockwise after each hand."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "Dealing in Seven Card Stud happens in a series of steps, with a combination of face-down and face-up cards dealt to each player.Third Street (First Round of Cards) Each player is dealt two hole cards face down (private) and one up card (face-up). The player with the lowest up card must start the first round ofbetting.Fourth Street (Second Round of Cards) After the first betting round, each player receives one additional face-up card. Another round of betting takes place, starting with the playershowing the highest hand.Fifth Street (Third Round of Cards) Each player receives another face-up card. Another round of betting follows, again starting with the highest hand.Sixth Street (Fourth Round of Cards) Players receive one more face-up card, followed by another betting round.Seventh Street (Fifth and Final Round of Cards) The final card is dealt face-down to each player. After the last betting round, players reveal their hands and the best five-card handwins."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are five total betting rounds in Seven Card Stud. Players can check, bet, raise, or fold depending on the strength of their hand and their ",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Third Street (First Betting Round)",
+                    "bettingRoundsPartsInfo": "Each player is dealt two hole cards face-down and one face-up card. The player with the lowest face-up card must place a mandatory 'bring-in' bet. Betting proceeds clockwise, where players can fold, call, or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Fourth Street (Second Betting Round)",
+                    "bettingRoundsPartsInfo": "Each remaining player receives a fourth card face-up. The player with the highest visible hand starts the betting. Players can check, bet, raise, or fold based on their hand's strength."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Fifth Street (Third Betting Round)",
+                    "bettingRoundsPartsInfo": "A fifth card is dealt face-up to each remaining player. The player with the strongest visible hand begins the betting round. Betting limits typically double at this stage."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Sixth Street (Fourth Betting Round)",
+                    "bettingRoundsPartsInfo": "Each player still in the hand receives a sixth card face-up. The highest visible hand starts the betting again. Players continue to check, bet, raise, or fold."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Seventh Street (Final Betting Round)",
+                    "bettingRoundsPartsInfo": "A final card is dealt face-down to each remaining player. The last round of betting takes place, starting with the player with the best visible hand. If multiple players remain, they reveal their hands, and the best five-card hand wins."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand wins the pot. The hand rankings are the same as in traditional poker:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made"
+            ],
+            "howToWinEndNote": "If two players have the same hand, the kicker (the next highest card) is used to break the tie."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "As a beginner, focus on playing strong hands like high pairs (e.g., Aces, Kings) and suited connectors (e.g., 10♠ J♠). Avoid starting with weaker hands unless they improve during the early rounds."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Pay Attention to Up Cards",
+                    "keyStrategiesPartsInfo": "Since players reveal some cards face-up, you have the advantage of seeing what your opponents are holding. Take note of which cards are visible, as this can help you predict what other players might have.."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "While Seven Card Stud doesn't have the same position dynamics as Texas Hold'em (due to no community cards), betting last allows you to see what others have done before making your move. Use this information to make more informed decisions."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Know When to Fold",
+                    "keyStrategiesPartsInfo": "Don't be afraid to fold if your hand isn't improving, especially after the earlier betting rounds. If you're facing strong bets and don't have a solid hand, folding is often the best decision."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing can be a useful strategy in Seven Card Stud, but it requires careful timing. Bluffing works best when your opponents are showing weak hands or when you've managed to disguise the strength of your hand."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Third Street (First Round of Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ (10 of Spades and 8 of Clubs)",
+                            "Up Card: 4♦ (Opponent's up card)",
+                            "Pot: 10 chips (ante).",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Each player antes into the pot.",
+                            "The player with the lowest up card posts the bring-in bet.",
+                            "Betting continues clockwise."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 10 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Fourth Street (Second Round of Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ 7♥ (The 7 of Hearts is dealt face-up)",
+                            "Opponent's Hand: 4♦ K♠",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You bet 20 chips.",
+                            "Your opponent calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 50 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Fifth Street (Third Round of Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ 7♥ 2♦ (The 2 of Diamonds is dealt face-up)",
+                            "Opponent's Hand: 4♦ K♠ 6♠",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You check.",
+                            "Your opponent bets 30 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 80 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Sixth Street (Fourth Round of Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ 7♥ 2♦ 3♠ (The 3 of Spades is dealt face-up)",
+                            "Opponent's Hand: 4♦ K♠ 6♠ 5♣",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You check.",
+                            "Your opponent checks."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 80 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Seventh Street (Fifth and Final Round of Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ 7♥ 2♦ 3♠ (Your final hand remains unchanged)",
+                            "Opponent's Hand: 4♦ K♠ 6♠ 5♣ 9♦",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "You both check.",
+                            "The hand goes to the showdown."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 80 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Showdown",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 8♣ 7♥ 2♦ 3♠  Your highest hand is a pair of tens.",
+                            "Opponent's Hand: 4♦ K♠ 6♠ 5♣ 9♦  Your opponent wins with a straight (4♦ 5♣ 6♠ 7♥ 8♣)."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Opponent wins with a straight."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal the straight and win the pot"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "You've now learned the basics of Seven Card Stud. This game requires attention to detail, careful hand selection, and reading your opponents. Start practicing with friends or online games, and don't worry if you lose a few hands early on—it's all part of the learning process."
+        }
+    },
+    {
+        "id": "fivecarddraw",
+        "img": "/variantPictures/fiveCardDraw.png",
+        "heading": "Welcome To Five Card Draw",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Five Card Draw is simple: Make the best five-card hand using any combination of the five cards dealt to you. Unlike community card games, Five Card Draw has no shared community cards. The player with the best five-card hand (based on poker hand rankings) wins the pot."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "Five Card Draw can be played with 2 to 6 players."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "In Five Card Draw, there are no forced bets like blinds. Instead, players place an ante (a small bet to start the game) to create an initial pot. The ante ensures that there's always something to play for, even before the cards are dealt."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise around the table after each hand. This determines which player deals the cards, but in casual play, everyone takes turns being the dealer."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "In Five Card Draw, each player receives five cards dealt face down. Players can look at their own cards, but they should keep them hidden from others.The player to the left of the dealer posts the ante, and the dealer begins dealing five cards to each player."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are two betting rounds in Five Card Draw: the pre-draw round and the post-draw round. Let's break them down.",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Pre-Draw Betting",
+                    "bettingRoundsPartsInfo": "After the cards are dealt, the first round of betting begins with the player to the left of the dealer. The player can choose to:Fold: Discard their hand and stop participating in the current hand.Call: Match the current bet (equal to the ante if no raises have occurred).Raise: Increase the size of the current bet.This continues clockwise around the table until everyone has had a chance to act."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Draw",
+                    "bettingRoundsPartsInfo": "After the pre-draw betting round, players can exchange any number of their cards for new ones. Each player can discard up to five cards and receive the same number of new cards from the deck. The player to the left of the dealer goes first, and the exchange continues clockwise around the table. Once all players have had a chance to draw new cards, a second round of betting begins.Post-Draw BettingAfter the draw, another round of betting takes place. The player to the left of the dealer starts the round. Players can choose to bet, check (if no one has bet), raise, or fold. The round continues until everyone has had a chance to act."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": "After the final betting round, if there are two or more players left in the hand, the showdown occurs. Players reveal their hole cards, and the best five-card hand is determined by each player's hand."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "The player with the best five-card hand wins the pot. The hand rankings are the same as in traditional poker:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made"
+            ],
+            "howToWinEndNote": "If two players have the same hand, the kicker (the next highest card) is used to break the tie."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Play tight: As a beginner, it's important to play fewer hands and focus on stronger starting hands. Pairs, high cards (Ace, King), and suited connectors (e.g., 10♠ J♠) are good starting hands.Consider hand strength: Hands like Ace-King, pairs of Jacks, and suited cards are usually worth playing. However, avoid playing weak hands like low cards without strong potential."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Know When to Fold",
+                    "keyStrategiesPartsInfo": "Don't be afraid to fold: If your hand is weak, don't be afraid to fold, especially after the draw. In Five Card Draw, the chance to improve your hand is limited, so don't waste chips chasing unlikely combinations."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing is a part of poker, but it should be used carefully. As a beginner, you should only bluff when the situation makes sense, such as when you have a weak hand but the board shows no strong combinations for your opponents."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bet Sizing",
+                    "keyStrategiesPartsInfo": "Learn to control the size of your bets. If you have a strong hand, consider betting enough to build the pot. If you have a weak hand, betting too much may scare your opponents into folding, preventing you from winning a bigger pot if you hit your draw."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre-Draw",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: 10♠ 10♦ 8♠ 3♣ 2♦",
+                            "Ante: Each player posts an ante of 10 chips.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 (to your left) raises to 30 chips.",
+                            "You call the 30 chips to see the draw.",
+                            "The rest of the players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 70 chips (your 30 + Player 1's 30 + 10 chips each in antes)."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "The Draw",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "You decide to draw two new cards, discarding the 3♣ and 2♦.",
+                            "Player 1 draws one card.",
+                            "The dealer gives you: J♠ Q♠.",
+                            "Your Hand Now: 10♠ 10♦ J♠ Q♠ 8♠ (a Flush)."
+                        ]
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Post-Draw Betting",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 checks.",
+                            "You bet 70 chips to try to extract value from your flush.",
+                            "Player 1 calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 210 chips (70 chips from each player)."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "The Showdown",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "You reveal your Flush (10♠ J♠ Q♠ 8♠) to Player 1, who reveals a Pair of Jacks.",
+                            "Your hand wins the pot."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Final Pot: 210 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You reveal the straight and win the pot"
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "You've now learned the basics of Five Card Draw. This game is all about hand strength and strategy, with fewer community cards to rely on compared to other poker games. Start practicing with friends or in online games to get a better feel for the game, and keep refining your strategy as you gain experience."
+        }
+    },
+    {
+        "id": "eightorbetter",
+        "img": "/variantPictures/eightOrBetter.png",
+        "heading": "Welcome To Eight or Better",
+        "gameObjective": {
+            "gameObjTitle": "Objective of the Game",
+            "gameObjInfo": "The goal of Omaha Hi/Lo 8 or Better is to make the best possible high hand and/or low hand using any combination of your four private hole cards and the five community cards. The best high hand wins half of the pot, and the best low hand wins the other half. To qualify for the low hand, the hand must consist of five cards of different ranks, all eight or lower (i.e., 8, 7, 6, 5, 4, 3, 2, Ace)."
+        },
+        "setup": {
+            "setupTitle": "The Setup",
+            "setupInfo": "Before we dive into gameplay, let's take a look at the setup",
+            "setupParts": [
+                {
+                    "setupPartsTitle": "Players",
+                    "setupPartsInfo": "2 to 10 players per game."
+                },
+                {
+                    "setupPartsTitle": "Deck",
+                    "setupPartsInfo": "A standard 52-card deck is used (no jokers)."
+                },
+                {
+                    "setupPartsTitle": "Blinds",
+                    "setupPartsInfo": "Similar to Texas Hold'em, the game uses forced bets called small blind and big blind.Dealer Button: The dealer button rotates clockwise after each hand. In a casino, the dealer is not a player, but in home games, it rotates among players."
+                },
+                {
+                    "setupPartsTitle": "Dealer Button",
+                    "setupPartsInfo": "The dealer button rotates clockwise after each hand. In a casino, the dealer is not a player, but in home games, it rotates among players."
+                },
+                {
+                    "setupPartsTitle": "Dealing the Cards",
+                    "setupPartsInfo": "Hole Cards: The dealer deals four hole cards face down to each player.Community Cards: The dealer places five community cards face up in the center of the table for all players to use in combination with their hole cards."
+                }
+            ]
+        },
+        "bettingRounds": {
+            "bettingRoundsTitle": "Betting Rounds",
+            "bettingRoundsInfo": "There are four betting rounds in Omaha Hi/Lo 8 or Better:",
+            "bettingRoundsParts": [
+                {
+                    "bettingRoundsPartsTitle": "Pre-Flop Betting",
+                    "bettingRoundsPartsInfo": "After all players receive their hole cards, the first round of betting begins with the player to the left of the big blind. Players can fold, call, or raise."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Flop Betting",
+                    "bettingRoundsPartsInfo": "The dealer places the first three community cards face up (the flop). Another round of betting occurs, starting with the player to the left of the dealer."
+                },
+                {
+                    "bettingRoundsPartsTitle": "Turn Betting",
+                    "bettingRoundsPartsInfo": "A fourth community card (the turn) is dealt face up. Betting continues, starting with the player to the left of the dealer."
+                },
+                {
+                    "bettingRoundsPartsTitle": "River Betting",
+                    "bettingRoundsPartsInfo": "The fifth and final community card (the river) is dealt face up. The final betting round begins, with the player to the left of the dealer starting."
+                },
+                {
+                    "bettingRoundsPartsTitle": "The Showdown",
+                    "bettingRoundsPartsInfo": "After the final betting round (post-river), if two or more players remain in the hand, the showdown occurs. Players reveal their hole cards, and the best high hand and low hand are determined.High Hand: The best five-card hand based on standard poker hand rankings.Low Hand: To qualify for a low hand, the player must have five cards with different ranks that are 8 or lower. The best low hand is the one with the lowest five cards, and Aces are considered low."
+                }
+            ]
+        },
+        "howToWin": {
+            "howToWinTitle": "How To Win",
+            "howToWinInfo": "High Hand: The player with the best five-card high hand wins half of the pot.Low Hand: The player with the best five-card low hand (with all ranks 8 or lower) wins the other half of the pot. If no player qualifies for a low hand, the entire pot is awarded to the player with the best high hand.Key Hand RankingsHere are the rankings for the high hand in Omaha Hi/Lo 8 or Better:",
+            "howToWinParts": [
+                "Royal Flush  A♠ K♠ Q♠ J♠ 10♠ (All same suit)",
+                "Straight Flush  5♣ 6♣ 7♣ 8♣ 9♣ (Five consecutive cards, same suit)",
+                "Four of a Kind  A♦ A♠ A♣ A♥ X (Four cards of the same rank)",
+                "Full House  Q♦ Q♠ Q♥ 4♠ 4♣ (Three of a kind + a pair)",
+                "Flush  Any five cards of the same suit (e.g., 2♦ 5♦ 7♦ J♦ K♦)",
+                "Straight  Five consecutive cards of any suit (e.g., 3♣ 4♦ 5♠ 6♥ 7♠)",
+                "Three of a Kind  9♠ 9♥ 9♣ X X (Three cards of the same rank)",
+                "Two Pair  J♠ J♣ 7♦ 7♣ X (Two pairs of the same rank)",
+                "One Pair  8♥ 8♣ X X X (Two cards of the same rank)",
+                "High Card  The highest card in hand if no other combination is made",
+                "Low Hand: A five-card hand with no cards ranked higher than 8. Aces count as low. For example, A♠ 2♦ 3♣ 4♥ 5♠ qualifies as a low hand."
+            ],
+            "howToWinEndNote": "Note: The '8 or better' rule means that if a player doesn't have five different cards ranked 8 or lower, they don't qualify for the low hand."
+        },
+        "keyStrategies": {
+            "keyStrategiesTitle": "Key Strategies for Beginners",
+            "keyStrategiesInfo": "Now that you understand the flow of the game, let's talk about some beginner strategies.",
+            "keyStrategiesParts": [
+                {
+                    "keyStrategiesPartsTitle": "Starting Hand Selection",
+                    "keyStrategiesPartsInfo": "Play tight and only play hands with potential for both high and low hands. Strong starting hands include hands with Aces, low connected cards, and suited cards."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Position Is Key",
+                    "keyStrategiesPartsInfo": "As in all poker games, your position at the table is crucial. Players in late position have an advantage because they can see how the other players are betting before they make their move."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Low Hand Qualification",
+                    "keyStrategiesPartsInfo": "Not every hand will qualify for a low. It's important to aim for hands that can win both a high and low portion of the pot. Hands like A, 2, 3, 4, 5 are great for low hands."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Understanding Split Pots",
+                    "keyStrategiesPartsInfo": "Omaha Hi/Lo 8 or Better is unique in that the pot is split between the best high hand and best low hand. If no one qualifies for a low hand, the high hand wins the entire pot."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Pot Control",
+                    "keyStrategiesPartsInfo": "Try to control the size of the pot, especially when you only have a good low hand or a marginal high hand. It's essential to avoid overcommitting to the pot when you aren't in a strong position."
+                },
+                {
+                    "keyStrategiesPartsTitle": "Bluffing and Semi-Bluffing",
+                    "keyStrategiesPartsInfo": "Bluffing can be an effective tool in Omaha Hi/Lo, but it should be used sparingly. Semi-bluffing, or betting when you have a strong draw for both high and low hands, can be an effective strategy."
+                }
+            ]
+        },
+        "handWalkthrough": {
+            "handWalkthroughTitle": "Example Hand Walkthrough",
+            "handWalkthroughInfo": "Let's walk through an example hand to illustrate how the game flows.",
+            "handWalkthroughParts": [
+                {
+                    "handWalkthroughPartsTitle": "Pre-Flop",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Your Hand: A♠ 2♣ 7♦ 9♥",
+                            "Blinds: Small blind posts 10 chips, big blind posts 20 chips.",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 (to your left) raises to 60 chips.",
+                            "You call the 60 chips.",
+                            "The remaining players fold."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 140 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Flop (First Three Community Cards)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Flop: 4♠ 6♣ K♦",
+                            "Your Hand Now: A♠ 2♣ 7♦ 9♥ + 4♠ 6♣ → A♠ 2♣ 4♠ 6♣ 7♦ (You now have a straight and a low hand).",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 bets 100 chips.",
+                            "You raise to 200 chips, hoping to build the pot for both a high and low win."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 440 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "Turn (Fourth Community Card)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "Turn: 5♦",
+                            "Your Hand Now: A♠ 2♣ 4♠ 5♦ 6♣ → A♠ 2♣ 4♠ 5♦ 6♣ (You have a straight and a low hand).",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 checks.",
+                            "You bet 250 chips."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Pot: 690 chips."
+                    }
+                },
+                {
+                    "handWalkthroughPartsTitle": "River (Fifth Community Card)",
+                    "handWalkthroughPartsInfo": {
+                        "handWalkthroughPartsInfoPtag": [
+                            "River: 8♥",
+                            "Your Final Hand: A♠ 2♣ 4♠ 5♦ 6♣ (Low hand A-2-3-4-5) and a straight (4-5-6-7-8).",
+                            "Action:"
+                        ],
+                        "handWalkthroughPartsInfoList": [
+                            "Player 1 calls."
+                        ],
+                        "handWalkthroughPartsInfoEndNote": "Final Pot: 1390 chips."
+                    }
+                }
+            ],
+            "handWalkthroughEndNote": "You win half the pot for the low hand (A♠ 2♣ 3♠ 4♠ 5♠), and if your straight is the best high hand, you win the other half."
+        },
+        "conclusion": {
+            "conclusionTitle": "Conclusion",
+            "conclusionInfo": "Omaha Hi/Lo 8 or Better is an exciting and strategic game that offers multiple ways to win the pot. By mastering starting hands, understanding when you can qualify for the low hand, and balancing high and low possibilities, you can significantly improve your chances of winning. Start practicing and learn when to fold, when to raise, and how to play both ends of the pot!"
+        }
     }
 ]
