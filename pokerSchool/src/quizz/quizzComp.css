@@ -107,6 +107,9 @@
   gap: 10px;
   flex-wrap: wrap;
 }
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .thatQuestion {
+  margin: 10px 0px;
+}
 #quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .answersContainer .wrongP {
   margin-bottom: 10px;
 }

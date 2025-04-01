@@ -80,13 +80,13 @@ export default function QuizzComp() {
                             <h2>here are the questions you answered wrong and the correct answers to them:</h2>
                             {wronglyAnsweredQuestions.map((wrongQuestion, index) => (
                                 <div className="wrongQuestionContainer" key={index}>
-                                    <>
-                                        <p>Question -</p>
-                                        <div className="answersContainer">
-                                            <p className="wrongP"><span className="wrongAnswer">You Answered -</span> {wrongQuestion.selectedAnswer}</p>
-                                            <p><span className="correctAnswer">The Correct Answer -</span> {wrongQuestion.correctAnswer}</p>
-                                        </div>
-                                    </>
+
+                                    <p className="thatQuestion">{wrongQuestion.thatQuestion} -</p>
+                                    <div className="answersContainer">
+                                        <p className="wrongP"><span className="wrongAnswer">You Answered -</span> {wrongQuestion.selectedAnswer}</p>
+                                        <p><span className="correctAnswer">The Correct Answer -</span> {wrongQuestion.correctAnswer}</p>
+                                    </div>
+
                                 </div>
                             ))}
                         </div>
