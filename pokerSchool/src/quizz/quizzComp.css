@@ -1,0 +1,120 @@
+#quizzHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+#quizzHeader img {
+  width: 5rem;
+}
+#quizzHeader button {
+  background: linear-gradient(330deg, rgb(9, 100, 185) 0%, rgb(32, 96, 215) 49%, rgb(49, 127, 243) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+#quizzMain {
+  padding: 0rem 0.625rem;
+}
+#quizzMain .choices {
+  padding-top: 10px;
+}
+#quizzMain .choices .choice {
+  background-color: #1F1F1F;
+  margin-bottom: 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  box-shadow: inset 0 3px 6px rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+}
+#quizzMain .choices .choice label {
+  width: 100%;
+  height: 100%;
+}
+#quizzMain .nextBtnBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: end;
+}
+#quizzMain .nextBtnBox .quizzNextBtn {
+  background: linear-gradient(330deg, rgb(49, 150, 26) 0%, rgb(49, 144, 5) 49%, rgb(80, 155, 33) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+  margin: 10px;
+}
+#quizzMain .nextBtnBox .takeTheQuizzAgain {
+  background: linear-gradient(330deg, rgb(207, 117, 27) 0%, rgb(215, 123, 32) 49%, rgb(243, 123, 49) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+  margin: 10px;
+}
+#quizzMain #compleatedQuizz {
+  text-align: center;
+}
+#quizzMain #compleatedQuizz #score {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer {
+  text-align: left;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer h2 {
+  text-align: left;
+  font-size: 20px;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .answersContainer .wrongP {
+  margin-bottom: 10px;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .answersContainer .wrongAnswer {
+  color: rgb(185, 49, 49);
+  padding-right: 5px;
+}
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .answersContainer .correctAnswer {
+  color: rgb(46, 184, 46);
+  padding-right: 5px;
+}/*# sourceMappingURL=quizzComp.css.map */

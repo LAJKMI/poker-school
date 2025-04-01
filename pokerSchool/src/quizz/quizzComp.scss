@@ -1,0 +1,107 @@
+@use '../assets/baseStyles' as *;
+
+#quizzHeader {
+    @include flexCenter();
+    justify-content: space-between;
+    padding: 20px;
+
+    img {
+        width: 5rem;
+    }
+
+    button {
+        @include button($requestBtn);
+        font-size: .875rem;
+        padding: .3125rem .625rem;
+        border-radius: .3125rem;
+    }
+}
+
+#quizzMain {
+    padding: $sectionPadding;
+
+    .choices {
+        padding-top: 10px;
+
+        .choice {
+            background-color: #1F1F1F;
+            margin-bottom: 20px;
+            padding: 5px;
+            @include flexCenter();
+            justify-content: start;
+            gap: 10px;
+            box-shadow: inset 0 3px 6px rgba($color: #fff, $alpha: .25);
+            border-radius: 6px;
+
+            label {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .nextBtnBox {
+        @include flexCenter();
+        justify-content: end;
+
+        .quizzNextBtn {
+            @include button($learnBtnColor);
+            font-size: .875rem;
+            padding: .3125rem .625rem;
+            border-radius: .3125rem;
+            margin: 10px
+        }
+
+        .takeTheQuizzAgain {
+            @include button($quizzBtnColor);
+            font-size: .875rem;
+            padding: .3125rem .625rem;
+            border-radius: .3125rem;
+            margin: 10px;
+        }
+    }
+
+    #compleatedQuizz {
+        text-align: center;
+
+        #score {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .quizzInfoContainer {
+            text-align: left;
+
+            h2 {
+                text-align: left;
+                font-size: 20px;
+            }
+
+            .wrongQuestionContainer {
+                @include flexCenter();
+                justify-content: start;
+                gap: 10px;
+                flex-wrap: wrap;
+
+                .answersContainer {
+
+                    .wrongP {
+                        margin-bottom: 10px;
+                    }
+
+                    .wrongAnswer {
+                        color: rgb(185, 49, 49);
+                        padding-right: 5px;
+                    }
+
+                    .correctAnswer {
+                        color: rgb(46, 184, 46);
+                        padding-right: 5px;
+
+                    }
+
+                }
+            }
+        }
+    }
+}

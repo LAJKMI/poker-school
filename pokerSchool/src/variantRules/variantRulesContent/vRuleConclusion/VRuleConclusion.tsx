@@ -1,3 +1,4 @@
+import { Link, useParams } from "react-router-dom"
 import { Conclusion } from "../../../hooks/useVariantRules"
 
 interface ConclusionProps {
@@ -5,6 +6,7 @@ interface ConclusionProps {
 }
 
 export default function VRuleConclusion({ conclusion }: ConclusionProps) {
+    const { id } = useParams()
     return (
         <section className="conclusion">
             <h2 className="head">{conclusion.conclusionTitle}</h2>
@@ -12,7 +14,9 @@ export default function VRuleConclusion({ conclusion }: ConclusionProps) {
             <p>Ready to test your knowledge? <br /> Take our quiz on the rules  and sharpen your understanding!</p>
             <p>Ready Want to improve your skills? <br /> Try our hand scenarios and practice making the best decisions!</p>
             <div className="learnVariantBtns">
-                <button className="quizz">Take The Quizz</button>
+                <Link to={`/quizz/${id}`}>
+                    <button className="quizz">Take The Quizz</button>
+                </Link>
                 <button className="practice">Practice</button>
             </div>
         </section>

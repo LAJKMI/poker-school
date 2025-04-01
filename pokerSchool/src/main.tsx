@@ -8,12 +8,14 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import NotFoundPage from './notFoundPage/NotFoundPage.tsx'
 import VariantRules from './variantRules/VariantRules.tsx'
 import Dictionary from './dictionaryPage/Dictionary.tsx'
+import QuizzComp from './quizz/QuizzComp.tsx'
 
 const queryClient = new QueryClient()
 const router = createBrowserRouter([
   { path: "/", element: <App /> },
   { path: "/variant/:id", element: <VariantRules /> },
   { path: "/dictionary", element: <Dictionary /> },
+  { path: "/quizz/:id", element: <QuizzComp /> },
   { path: "*", element: <NotFoundPage /> }
 ])
 
