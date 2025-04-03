@@ -77,11 +77,16 @@
                 font-size: 20px;
             }
 
+            .wrongQuestionContainer:nth-child(2n) {
+                background: rgb(44, 44, 44)
+            }
+
             .wrongQuestionContainer {
                 @include flexCenter();
                 justify-content: start;
                 gap: 10px;
                 flex-wrap: wrap;
+                margin-bottom: 10px;
 
                 .thatQuestion {
                     margin: 10px 0px;
@@ -105,6 +110,8 @@
                     }
 
                 }
+
+
             }
         }
     }

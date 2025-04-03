@@ -98,6 +98,9 @@
   text-align: left;
   font-size: 20px;
 }
+#quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer:nth-child(2n) {
+  background: rgb(44, 44, 44);
+}
 #quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer {
   display: flex;
   flex-direction: row;
@@ -106,6 +109,7 @@
   justify-content: start;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 #quizzMain #compleatedQuizz .quizzInfoContainer .wrongQuestionContainer .thatQuestion {
   margin: 10px 0px;
