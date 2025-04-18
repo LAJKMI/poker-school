@@ -1,9 +1,12 @@
 @use '../../../assets/baseStyles' as *;
 
-.variants {
-    height: 70dvh;
+.learnVariants {
     border-top: $variantsBorder;
     border-bottom: $variantsBorder;
+}
+
+.variants {
+    height: 70dvh;
     padding: $sectionPadding;
     @include flexCenter(column);
     justify-content: flex-start;

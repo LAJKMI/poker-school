@@ -1,0 +1,577 @@
+[
+    {
+        "id": "texasholdem",
+        "scenarios": [
+            {
+                "scenario": "You're on the button with King♥ Queen♥. A middle position player opens to $8 in a $1/$2 game. Everyone folds to you.",
+                "answer": "The correct answer is raise, because K♥ Q♥ is a strong suited Broadway hand and you're in position. 3-betting applies pressure, and you'll often have the advantage post-flop. This also helps isolate the opener and gain control of the pot."
+            },
+            {
+                "scenario": "You're in the big blind with Seven♣ Two♦. A tight player in early position raises to $10.",
+                "answer": "The correct answer is fold, because 7♣ 2♦ is the worst starting hand in Texas Hold'em. Even though you're already partially invested in the big blind, this hand is just too weak and dominated to play profitably, especially against a tight opener."
+            },
+            {
+                "scenario": "You're in the big blind with Jack♠ Nine♠. Everyone folds, and the small blind just limps in.",
+                "answer": "The correct answer is check, because you have a playable suited hand with good post-flop potential. Raising could bloat the pot unnecessarily, and folding makes no sense with a free option to see the flop."
+            },
+            {
+                "scenario": "You're on the cutoff with Ten♣ Four♦. There's a raise and a re-raise before you.",
+                "answer": "The correct answer is fold, because T♣ 4♦ is a weak hand, and there's already heavy action ahead of you. You're very likely dominated, and even position can't save you here. Stay out of trouble."
+            },
+            {
+                "scenario": "You're in the big blind with Six♠ Eight♠. Everyone folds to the small blind, who limps in.",
+                "answer": "The correct answer is check, because you have a suited hand with decent connectedness and you can see a cheap flop. No need to raise out of position against a limp. Just take the free flop and evaluate from there."
+            },
+            {
+                "scenario": "You're under the gun with Ace♠ King♦ in a 6-max cash game. Action starts with you.",
+                "answer": "The correct answer is raise, because A♠ K♦ is a premium hand and should be played aggressively. Raising gives you control of the pot and helps thin the field, maximizing value when you're likely ahead."
+            },
+            {
+                "scenario": "You're on the button with Nine♣ Three♠. A player in middle position raises to $6.",
+                "answer": "The correct answer is fold, because 9♣ 3♠ is a trash hand that doesn't play well post-flop. Even with position, your hand lacks strength and coordination. Save your chips for better spots."
+            },
+            {
+                "scenario": "You're in the big blind with Queen♦ Seven♠. Everyone folds to the small blind, who completes.",
+                "answer": "The correct answer is check, because Q♦ 7♠ is marginal and not worth raising from out of position. You're not investing more money with a mediocre hand, and a free flop gives you flexibility to proceed."
+            },
+            {
+                "scenario": "You're in the cutoff with Jack♦ Ten♦. Everyone folds to you.",
+                "answer": "The correct answer is raise, because J♦ T♦ is a solid hand for stealing blinds and has great post-flop potential. You have fold equity, position, and a hand that can hit straights and flushes."
+            },
+            {
+                "scenario": "You're in early position with Five♠ Two♣. You're first to act in a full ring game.",
+                "answer": "The correct answer is fold, because 5♠ 2♣ is a weak, disconnected hand. You're out of position with little potential, so folding is the correct and disciplined play."
+            },
+            {
+                "scenario": "You're in the small blind with Ace♣ Queen♣. The button raises to $5.",
+                "answer": "The correct answer is raise, because A♣ Q♣ is a strong hand, especially suited, and you're facing a late-position raise. 3-betting here isolates the button and helps balance your small blind range with strong hands."
+            },
+            {
+                "scenario": "You're in the big blind with Eight♦ Nine♣. Everyone folds to you.",
+                "answer": "The correct answer is check, because you're already in for the big blind and have a decent hand to see a flop. No one raised, so there's no need to add more risk with an aggressive play."
+            },
+            {
+                "scenario": "You're on the button with Jack♣ Two♠. There's a raise and a call before you.",
+                "answer": "The correct answer is fold, because J♣ 2♠ is a weak hand that is easily dominated. Position doesn't justify playing garbage against multiple opponents and potential stronger holdings."
+            },
+            {
+                "scenario": "You're on the cutoff with Nine♠ Nine♦. Everyone folds to you.",
+                "answer": "The correct answer is raise, because 9♠ 9♦ is a strong pocket pair worth building the pot with. It's too strong to limp or fold, and raising gives you initiative and protection."
+            },
+            {
+                "scenario": "You're in the big blind with Ten♣ Seven♦. The small blind limps in.",
+                "answer": "The correct answer is check, because T♣ 7♦ is a marginal hand that doesn't justify raising out of position. You can see a flop for free and make a decision based on how it connects."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "razz",
+        "scenarios": [
+            {
+                "scenario": "Your starting hand is (3♦ 2♠) 5♣, and you act after two limpers showing face cards.",
+                "answer": "The correct answer is raise, because 3-2-5 is extremely strong and your opponents show high cards. Take control early and punish weaker starts — especially when you're likely ahead."
+            },
+            {
+                "scenario": "You have (K♣ 8♦) J♠, and a player with a 5♠ showing completes the bet.",
+                "answer": "The correct answer is fold, because your hand is very high and you're already behind. Don't chase with bad cards — you're nearly drawing dead against a made low."
+            },
+            {
+                "scenario": "Your board shows (7♦ 6♣) 9♠, and everyone checks on third street.",
+                "answer": "The correct answer is check, because your hand has some potential but isn't strong enough to bet. You're in a marginal spot; wait to improve before risking more chips."
+            },
+            {
+                "scenario": "You're dealt (A♠ 2♥) 4♦ and have the best upcard at the table.",
+                "answer": "The correct answer is raise, because you've got a premium start and table position. Apply pressure early when you're likely ahead and force out drawing hands."
+            },
+            {
+                "scenario": "You start with (Q♠ J♦) T♥ and someone with a 6♣ showing raises.",
+                "answer": "The correct answer is fold, because you have a trash high hand and poor prospects. Avoid spots where your ceiling is low and opponents show strength."
+            },
+            {
+                "scenario": "You have (6♣ 5♠) 8♠, and everyone checks on third street.",
+                "answer": "The correct answer is check, because your hand is middling and doesn't justify building a pot yet. You're still in the game, but no need to inflate the pot."
+            },
+            {
+                "scenario": "You start with (4♣ 3♦) A♥, and the bring-in is a King.",
+                "answer": "The correct answer is raise, because your hand is one of the best possible and your opponent is weak. Attack weak upcards and build a pot while you're way ahead."
+            },
+            {
+                "scenario": "You have (T♣ 9♣) 8♦, and someone completes with a 3♠ showing.",
+                "answer": "The correct answer is fold, because you're already behind and unlikely to catch up. Don't continue with a rough high hand versus a premium low starter."
+            },
+            {
+                "scenario": "You start with (7♠ 3♠) J♣, and everyone limps.",
+                "answer": "The correct answer is check, because while you have two decent hole cards, your upcard is weak. Play cautiously unless your board improves quickly."
+            },
+            {
+                "scenario": "You have (2♠ 5♦) 6♥, and two players with high upcards limp.",
+                "answer": "The correct answer is raise, because your hand is strong and opponents are likely weak. Capitalize on dead cards and build pressure when you're in the lead."
+            },
+            {
+                "scenario": "You hold (J♠ Q♥) 9♣, and the bring-in raises with a 5♦ showing.",
+                "answer": "The correct answer is fold, because your hand is garbage and you're out of position. Don't waste chips with an uphill battle against stronger opponents."
+            },
+            {
+                "scenario": "Your board is (6♦ 7♣) 9♦, and no one shows a card lower than 8.",
+                "answer": "The correct answer is check, because you're slightly ahead but not enough to bet into unknown strength. Let others make the move — you might improve or trap later."
+            },
+            {
+                "scenario": "You hold (A♣ 3♥) 6♠ and you're last to act with everyone checking.",
+                "answer": "The correct answer is raise, because you have a strong low and position. Punish passive play and deny free cards when you're likely ahead."
+            },
+            {
+                "scenario": "Your hand is (Q♦ 9♦) 8♥, and someone with a 4♠ showing completes.",
+                "answer": "The correct answer is fold, because you're very likely behind and have poor catching potential. Fold early to avoid losing more in a hopeless spot."
+            },
+            {
+                "scenario": "You have (5♠ 6♠) T♣, and the only aggressive player shows a King and checks.",
+                "answer": "The correct answer is check, because while your hand could improve, it's not worth betting yet. You're not in danger but lack initiative — wait for a better spot."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "horse",
+        "scenarios": [
+            {
+                "currentGame": "Texas Hold'em",
+                "scenario": "You're in late position with A♠ Q♠, and a middle position player limps in.",
+                "answer": "The correct answer is raise, because A♠ Q♠ is a strong hand in late position. Raising puts pressure on limpers and helps define ranges while building the pot with a strong holding."
+            },
+            {
+                "currentGame": "Texas Hold'em",
+                "scenario": "You're under the gun with 9♣ 4♦ in a full-ring game.",
+                "answer": "The correct answer is fold, because 9♣ 4♦ is a weak and disconnected hand. Folding early with garbage avoids post-flop traps and tough decisions."
+            },
+            {
+                "currentGame": "Texas Hold'em",
+                "scenario": "You're in the big blind with J♥ 8♦. Everyone folds to the small blind who just calls.",
+                "answer": "The correct answer is check, because J♥ 8♦ is playable and you get a free flop. There's no need to raise out of position with a mediocre hand."
+            },
+            {
+                "currentGame": "Omaha Hi/Lo",
+                "scenario": "You're dealt K♣ Q♣ 7♦ 9♥ in early position.",
+                "answer": "The correct answer is fold, because you have no low potential and poor high coordination. In Omaha Hi/Lo, you want hands that can scoop both halves, not just draw to weak high hands."
+            },
+            {
+                "currentGame": "Omaha Hi/Lo",
+                "scenario": "You have A♠ 2♠ 3♥ K♦ on the button. One player limps ahead of you.",
+                "answer": "The correct answer is raise, because A-2-3 gives you strong low potential and good high equity. Raising can thin the field and capitalize on a premium two-way hand."
+            },
+            {
+                "currentGame": "Omaha Hi/Lo",
+                "scenario": "You're in the big blind with 8♠ 7♠ A♦ 2♣. No one raises, and you can see a free flop.",
+                "answer": "The correct answer is check, because while A-2 gives low potential, your high is mediocre. A free flop lets you evaluate cheaply and possibly draw to a strong low."
+            },
+            {
+                "currentGame": "Razz",
+                "scenario": "You start with 3♦ 4♠ 2♣, and you're first to act after bring-in.",
+                "answer": "The correct answer is raise, because 3-4-2 is one of the best starting hands in Razz. You want to build the pot and apply pressure with a premium low hand."
+            },
+            {
+                "currentGame": "Razz",
+                "scenario": "You have K♠ 9♦ 8♣, and a player with a 3 showing raises.",
+                "answer": "The correct answer is fold, because your hand is high and dead against likely better lows. No need to continue when your opponent shows strong potential and you're far behind."
+            },
+            {
+                "currentGame": "Razz",
+                "scenario": "You have 7♣ 6♦ A♠, and everyone else checks on third street.",
+                "answer": "The correct answer is check, because your hand is solid but no one is showing weakness. It's a fine spot to just take a free look unless there's value in building the pot."
+            },
+            {
+                "currentGame": "Seven Card Stud",
+                "scenario": "You start with Q♠ Q♥ 8♣ and you're up against low cards.",
+                "answer": "The correct answer is raise, because you have a strong starting pair. Raising here helps thin the field and charge others to chase."
+            },
+            {
+                "currentGame": "Seven Card Stud",
+                "scenario": "You start with J♣ 5♠ 5♦, and a player shows an Ace and raises.",
+                "answer": "The correct answer is fold, because your small pair is likely behind a strong high hand. You're out of position and dominated — save your chips."
+            },
+            {
+                "currentGame": "Seven Card Stud",
+                "scenario": "You start with T♣ 9♣ Q♦, and everyone checks on third street.",
+                "answer": "The correct answer is check, because your hand has potential but no pair or clear strength yet. See another card before committing chips."
+            },
+            {
+                "currentGame": "Stud Eight-or-Better",
+                "scenario": "You have A♣ 2♦ 3♥, and you're the first to act.",
+                "answer": "The correct answer is raise, because you have the best possible low draw and high potential. You want to build the pot and possibly scoop."
+            },
+            {
+                "currentGame": "Stud Eight-or-Better",
+                "scenario": "You have K♠ Q♦ 9♣, and someone with 2♣ showing raises.",
+                "answer": "The correct answer is fold, because you have no low and a weak high. You're unlikely to win either side — get out."
+            },
+            {
+                "currentGame": "Stud Eight-or-Better",
+                "scenario": "You have 6♠ 7♠ 9♣. No one has shown aggression yet.",
+                "answer": "The correct answer is check, because you have weak low potential and only drawy high value. Take the free card and re-evaluate."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "pineapple",
+        "scenarios": [
+            {
+                "scenario": "You're dealt A♠ K♠ Q♦ on the button, and everyone folds to you.",
+                "answer": "The correct answer is raise, because this is a premium hand and you're in late position. You'll likely discard the Q♦ and go to the flop with A♠ K♠ — a strong combo worth building the pot with."
+            },
+            {
+                "scenario": "You're in middle position with 9♣ 7♦ 2♠, and an early player raises.",
+                "answer": "The correct answer is fold, because you have no connected strength or suited value. You're likely dominated and out of position — not worth continuing."
+            },
+            {
+                "scenario": "You kept Q♣ J♣ from your original Q♣ J♣ 7♠ and see a flop of A♠ 6♦ 2♣. Everyone checks to you.",
+                "answer": "The correct answer is check, because you missed the flop entirely. No draw, no pair — no reason to bet."
+            },
+            {
+                "scenario": "You're dealt 3♠ 4♠ 5♣ and keep 3♠ 4♠. The flop comes 2♠ 6♠ 9♦.",
+                "answer": "The correct answer is raise, because you flopped a straight-flush draw and gutshot. Apply pressure with strong drawing hands to build the pot and isolate."
+            },
+            {
+                "scenario": "You're UTG with J♣ 8♦ 3♥ and no action yet.",
+                "answer": "The correct answer is fold, because you're in early position with a weak, uncoordinated hand. Avoid opening with junk."
+            },
+            {
+                "scenario": "You held Q♠ T♠ from Q♠ T♠ 9♦. Flop is A♣ 7♦ 2♠. Everyone checks.",
+                "answer": "The correct answer is check, because you've got no pair and a backdoor flush at best. Play passively and hope for improvement."
+            },
+            {
+                "scenario": "You're dealt T♠ T♥ 5♦ in the cutoff after two players limp.",
+                "answer": "The correct answer is raise, because pocket tens are strong and limpers likely have weak hands. Raise to isolate and take control."
+            },
+            {
+                "scenario": "You have K♦ 8♣ 2♥ in the big blind. UTG makes a big raise.",
+                "answer": "The correct answer is fold, because you're likely out-kicked or dominated. Don't defend garbage versus early strength."
+            },
+            {
+                "scenario": "You kept 9♠ 9♦ from 9♠ 9♦ A♣. Flop is K♣ 8♥ 2♦. Everyone checks.",
+                "answer": "The correct answer is check, because there's an overcard on board and you don't want to inflate the pot. Be cautious until you know where you stand."
+            },
+            {
+                "scenario": "You're dealt A♥ A♦ Q♠ in early position.",
+                "answer": "The correct answer is raise, because pocket Aces are the best starting hand. Raise pre-flop to build the pot and protect your hand."
+            },
+            {
+                "scenario": "You have 6♠ 4♣ 9♣ in the small blind. A player UTG raises.",
+                "answer": "The correct answer is fold, because your hand is weak and you're out of position. Let it go — nothing here is worth investing in."
+            },
+            {
+                "scenario": "You kept T♣ 9♣ from T♣ 9♣ 6♣. Flop is A♦ 8♠ 2♠. Everyone checks.",
+                "answer": "The correct answer is check, because you missed and have no real equity. Avoid bluffing into multiple opponents with nothing."
+            },
+            {
+                "scenario": "You're dealt 7♠ 8♠ 9♥ and kept 7♠ 8♠. Flop is 6♠ T♠ Q♦.",
+                "answer": "The correct answer is raise, because you have both a flush and straight draw. Combo draws are powerful — apply pressure."
+            },
+            {
+                "scenario": "You have Q♦ J♠ 5♥ in early position.",
+                "answer": "The correct answer is fold, because this is marginal at best and too risky UTG. Don't get fancy early — wait for something better."
+            },
+            {
+                "scenario": "You kept K♠ T♦ from K♠ T♦ 8♥. Flop is T♥ 5♠ 3♣. One player checks to you.",
+                "answer": "The correct answer is check, because while you hit top pair, your kicker isn't strong. Keep the pot small unless your hand improves or you get more info."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "omaha",
+        "scenarios": [
+            {
+                "scenario": "You're dealt A♠ A♦ K♠ Q♦ and are on the button. Two players limp ahead of you.",
+                "answer": "The correct answer is raise, because this is a premium double-suited high hand with top pair and Broadway potential. Apply pressure in position and build the pot with a monster hand."
+            },
+            {
+                "scenario": "You hold 9♣ 7♠ 4♦ 2♣ in early position.",
+                "answer": "The correct answer is fold, because your hand is disconnected and has little potential. Bad starting hands should be mucked, especially out of position."
+            },
+            {
+                "scenario": "You're in the big blind with J♦ 9♦ 6♣ 3♠. Flop comes A♥ K♠ 5♣, and everyone checks.",
+                "answer": "The correct answer is check, because you completely missed the flop and have no real draw. Stay conservative unless your hand improves."
+            },
+            {
+                "scenario": "You're dealt T♠ 9♠ 8♣ 7♣ and flop comes 6♠ 5♣ J♠. You have a straight draw, flush draw, and position.",
+                "answer": "The correct answer is raise, because you have massive equity with combo draws. Build the pot while you have fold equity and outs."
+            },
+            {
+                "scenario": "You're dealt Q♠ J♦ 7♣ 2♥ and a player in early position pots it.",
+                "answer": "The correct answer is fold, because your hand is weak and dominated. Avoid calling raises with junk that doesn't coordinate well."
+            },
+            {
+                "scenario": "You hold 8♦ 8♠ 3♠ 2♣. The flop is K♥ 6♠ 4♦, and there's no action.",
+                "answer": "The correct answer is check, because your hand missed and middle pair isn't worth betting here. Wait and see how the turn develops."
+            },
+            {
+                "scenario": "You're dealt A♣ 2♣ 3♦ 4♦ and the flop is 5♥ 6♠ 7♠.",
+                "answer": "The correct answer is raise, because you have the nut straight and redraw potential. Capitalize on strength and force out weaker hands or draws."
+            },
+            {
+                "scenario": "You hold K♣ 9♦ 6♥ 3♦ in middle position, and UTG raises.",
+                "answer": "The correct answer is fold, because your hand lacks connectivity and can't make strong hands. Don't chase with poor structure."
+            },
+            {
+                "scenario": "You're in the small blind with Q♠ T♠ 9♣ 5♣. Flop is A♦ 7♥ 2♣ and checks around.",
+                "answer": "The correct answer is check, because you whiffed the flop completely. No pair, no draw — nothing to gain by betting."
+            },
+            {
+                "scenario": "You're dealt A♥ A♣ 6♣ 5♣ and flop comes K♣ 8♣ 2♦.",
+                "answer": "The correct answer is raise, because you have an overpair and nut flush draw. Play aggressively with strong made hands and draws."
+            },
+            {
+                "scenario": "You're dealt J♠ 8♣ 4♦ 4♠ and the flop comes A♥ K♦ 7♠ with two bets before you.",
+                "answer": "The correct answer is fold, because your hand is behind with no real outs. Don't continue into strong boards without equity."
+            },
+            {
+                "scenario": "You hold Q♦ J♦ 9♥ 7♠ and the flop is 2♠ 6♣ K♥. Everyone checks.",
+                "answer": "The correct answer is check, because you missed the board entirely. You have some backdoor potential, but no reason to build a pot."
+            },
+            {
+                "scenario": "You're dealt T♦ 9♦ 8♠ 7♠ and the flop comes 6♠ J♠ Q♣.",
+                "answer": "The correct answer is raise, because you flopped the nut straight and a flush redraw. Raise to charge drawing hands and protect your made hand."
+            },
+            {
+                "scenario": "You have Q♣ T♣ 6♦ 3♠. The flop is A♠ A♦ K♣ and someone pots it.",
+                "answer": "The correct answer is fold, because you're up against trip Aces or better. Don't fight into strong boards with no real strength or redraw."
+            },
+            {
+                "scenario": "You're in the cutoff with 7♠ 6♠ 5♣ 4♣. Flop is K♦ 9♠ 2♥, and it checks to you.",
+                "answer": "The correct answer is check, because you missed the flop entirely. Even with a connected hand, wait for better boards to get involved."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "sevencardstud",
+        "scenarios": [
+            {
+                "scenario": "You are dealt 7♠ 6♠ and the upcard is a 3♦.",
+                "answer": "The correct answer is raise, because you have a strong suited hand and a low upcard on the board. Apply pressure on weaker hands and try to build a pot with potential for a straight or flush."
+            },
+            {
+                "scenario": "You have K♣ 7♦ and the upcard showing is an A♠. A player in early position raises.",
+                "answer": "The correct answer is fold, because your hand is weak and you're up against an Ace showing. Don't chase with high cards that don't work well together, especially when opponents show strength."
+            },
+            {
+                "scenario": "Your hole cards are 9♠ 6♦ and the upcards on the table are K♣ 3♠. The pot is small, and everyone checks to you.",
+                "answer": "The correct answer is check, because your hand is decent but not strong enough to bet. Wait for a better card to improve your hand before betting."
+            },
+            {
+                "scenario": "You're dealt 3♣ 3♦, and your upcard is a 2♠. Another player shows a 5♣.",
+                "answer": "The correct answer is raise, because you have a small pair with the possibility of improving to a set or straight. Building the pot here increases the chances of earning big if you hit your straight or full house."
+            },
+            {
+                "scenario": "You have Q♠ 10♦, and the upcards are showing J♥ 8♣. Someone raises.",
+                "answer": "The correct answer is fold, because you have a weak hand with no strong draws, and your opponent shows good cards. Don't invest in hands with poor connectivity, especially against players with stronger hands."
+            },
+            {
+                "scenario": "Your hole cards are 8♠ 5♦, and the upcards are 10♠ 6♣ 3♦.",
+                "answer": "The correct answer is check, because your hand is currently not very strong. You may have a low pair, but it's not worth raising yet. Check and see if you can improve."
+            },
+            {
+                "scenario": "You're dealt K♦ K♠, and the upcards are showing 2♣ 3♠.",
+                "answer": "The correct answer is raise, because you have a powerful pocket pair and an opponent with a weak upcard. Take advantage of your strong hand and try to build the pot while you're ahead."
+            },
+            {
+                "scenario": "You hold J♠ 8♦ and the upcard showing is a Q♣. Someone raises.",
+                "answer": "The correct answer is fold, because your hand is disconnected and you're likely behind. Don't continue with poor starting hands against a raised pot, especially when you're facing a stronger range."
+            },
+            {
+                "scenario": "You hold 7♣ 4♠ and the upcards are showing 9♠ 5♦. Everyone checks.",
+                "answer": "The correct answer is check, because you have a weak hand with limited potential. Check and see if you can improve on the next street, but don't commit too many chips to a weak hand."
+            },
+            {
+                "scenario": "You hold A♠ A♣, and the upcards are showing 5♠ 3♣.",
+                "answer": "The correct answer is raise, because you have a high pair of Aces with strong potential. Take control of the hand early and capitalize on your premium starting hand."
+            },
+            {
+                "scenario": "You're holding Q♦ 10♠, and the upcards are showing 7♠ 9♦.",
+                "answer": "The correct answer is fold, because you're still behind with no immediate draws. Your hand is weak compared to the board, and you're unlikely to improve."
+            },
+            {
+                "scenario": "You're holding 6♠ 3♦, and the upcards are showing J♣ 2♠ 5♦.",
+                "answer": "The correct answer is check, because you have a low pair and there are no immediate flush or straight opportunities. Play conservatively and wait for a better opportunity to bet."
+            },
+            {
+                "scenario": "You're holding 8♠ 8♣ and the upcards are showing 7♦ 6♣.",
+                "answer": "The correct answer is raise, because you have a strong pocket pair and are close to completing a straight. Take advantage of your hand's potential and apply pressure to weaker hands."
+            },
+            {
+                "scenario": "You're holding J♣ 7♠ and the upcards are showing A♥ 9♠.",
+                "answer": "The correct answer is fold, because you have an underwhelming hand with no immediate draw potential. Don't chase hands that don't have much chance to improve."
+            },
+            {
+                "scenario": "You have 4♠ 2♣, and the upcards are showing 6♦ 7♠.",
+                "answer": "The correct answer is check, because you have a low pair with no real opportunities to improve further. You're holding a marginal hand; check and wait for better cards to develop."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "fivecarddraw",
+        "scenarios": [
+            {
+                "scenario": "You are dealt 10♠ 10♦ 5♣ 3♦ 2♠, and a player in early position raises.",
+                "answer": "The correct answer is raise, because you have a pair of tens, which is a strong hand pre-flop. By raising, you build the pot while you are likely ahead, and you can charge opponents to see the next card."
+            },
+            {
+                "scenario": "Your hand is 9♠ 6♦ 3♣ 2♥ 7♠, and a player raises before you.",
+                "answer": "The correct answer is fold, because you don't have any strong pair or potential to improve your hand significantly. You're likely to be behind, and this hand doesn't have much potential to win."
+            },
+            {
+                "scenario": "You are dealt A♠ K♣ Q♦ J♦ 10♠, and no one has raised the pot.",
+                "answer": "The correct answer is check, because you have a royal flush draw, but you don't need to bet yet. Let others make the first move and see if you can complete your straight or flush."
+            },
+            {
+                "scenario": "You are holding A♦ 2♣ 3♠ 4♦ 5♠.",
+                "answer": "The correct answer is raise, because you have a straight, which is a solid hand in Five Card Draw. You want to build the pot while you have a strong hand and avoid giving your opponents cheap draws."
+            },
+            {
+                "scenario": "You are holding Q♠ 9♣ 7♦ 5♠ 3♣ and your opponent raises.",
+                "answer": "The correct answer is fold, because your hand has no pair and doesn't offer any immediate draw potential. You're not in a favorable position, so it's best to cut your losses."
+            },
+            {
+                "scenario": "You are dealt 8♠ 8♦ 4♣ 2♠ 3♦, and everyone checks to you.",
+                "answer": "The correct answer is check, because your pair of eights is not strong enough to bet yet. It's still early in the hand, and you can check to see how others act before deciding to improve your hand."
+            },
+            {
+                "scenario": "You hold 7♠ 7♣ 10♠ J♠ K♣, and you're in the early position with no raises yet.",
+                "answer": "The correct answer is raise, because you have a medium pair and a possible straight or flush draw. Increase the pot and take control of the hand, especially when you're in a good position."
+            },
+            {
+                "scenario": "You hold 6♠ 5♣ 4♦ 2♠ Q♦, and a player raises before you.",
+                "answer": "The correct answer is fold, because you don't have any good potential to improve your hand. A queen is the only decent card, but it's not enough to make a strong hand, and you're likely behind."
+            },
+            {
+                "scenario": "You hold 5♠ 3♠ 7♦ 9♠ J♦, and the first player checks.",
+                "answer": "The correct answer is check, because you don't have a strong hand, but your hand could improve with the right draw. Check and wait for your opponents to show their hand or offer you a chance to improve."
+            },
+            {
+                "scenario": "You hold 4♦ 5♠ 6♣ 7♠ 8♠, and no one has raised the pot.",
+                "answer": "The correct answer is raise, because you have a straight, which is a very strong hand. You want to build the pot and deny your opponents the chance to catch up with draws."
+            },
+            {
+                "scenario": "You hold 9♦ 5♠ 3♣ Q♠ 2♣ and a player raises.",
+                "answer": "The correct answer is fold, because your hand is very weak with no immediate draw potential or pair. You're likely far behind and have little chance to improve, so it's best to fold."
+            },
+            {
+                "scenario": "You hold 6♠ 3♠ 7♣ 5♦ K♠, and everyone checks.",
+                "answer": "The correct answer is check, because your hand has a low pair and no significant draws to make a straight or flush. Checking allows you to see what others do before deciding whether to improve your hand."
+            },
+            {
+                "scenario": "You are holding A♠ A♦ 8♠ 4♣ 3♠, and you're in the late position with no raises yet.",
+                "answer": "The correct answer is raise, because you have a pair of aces, which is a premium hand. You want to raise to maximize the value of your strong pair and take control of the pot."
+            },
+            {
+                "scenario": "You hold J♠ 7♠ 4♣ 6♦ 2♠, and a player raises before you.",
+                "answer": "The correct answer is fold, because your hand has no strong pair or good drawing potential. You're behind and have no good reason to continue with this weak hand."
+            },
+            {
+                "scenario": "You are holding 8♣ 8♠ 10♠ Q♦ K♠, and everyone checks to you.",
+                "answer": "The correct answer is check, because although you have a pair of eights, it's not strong enough to bet into the pot. Wait for a better opportunity to increase the pot if your hand improves or if others bet."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    },
+    {
+        "id": "eightorbetter",
+        "scenarios": [
+            {
+                "scenario": "You are dealt A♠ 2♦ 5♣ 9♥ K♦, and there is a raise before you.",
+                "answer": "The correct answer is raise, because you have a strong potential to make both the high and low hands. You have a great low hand starting with A-2, and the possibility of a straight or even a flush for the high hand."
+            },
+            {
+                "scenario": "You are holding Q♠ Q♦ 10♠ 7♣ 5♠, and a player raises.",
+                "answer": "The correct answer is fold, because you have no good low draw and no strong high hand potential. Without the ability to make a low hand or a high hand strong enough to win, it's best to fold."
+            },
+            {
+                "scenario": "You are holding A♣ 3♠ 7♦ 9♣ J♦, and no one has raised.",
+                "answer": "The correct answer is check, because while you have a weak low hand, your high hand is nothing special. Checking is a safe play to see if your hand improves on the next round without committing too many chips."
+            },
+            {
+                "scenario": "You are dealt A♦ 2♣ 3♠ 5♠ 8♠, and no one has raised yet.",
+                "answer": "The correct answer is raise, because you have a very strong low hand (A-2-3-5-8) and a potential flush draw for the high hand. Maximize the value of your strong starting hand and put pressure on others with weaker hands."
+            },
+            {
+                "scenario": "You hold K♠ K♣ 8♦ 7♠ 2♣, and a player raises before you.",
+                "answer": "The correct answer is fold, because you only have a mediocre high hand and no potential for a low hand. Your hand is unlikely to improve significantly, and it's not strong enough to play against a raise."
+            },
+            {
+                "scenario": "You hold A♠ 4♠ 9♣ 10♦ Q♠, and there are two players who have checked before you.",
+                "answer": "The correct answer is check, because you don't have a strong low hand or high hand at the moment. Check to see if you can improve your hand on the next round, as you're not in a good spot to bet just yet."
+            },
+            {
+                "scenario": "You are dealt A♣ 2♠ 5♦ 6♠ 9♠, and you're in the cutoff with no raises before you.",
+                "answer": "The correct answer is raise, because you have a strong A-2-5-6 low draw and the potential to make a straight or flush for the high hand. Build the pot and take advantage of your favorable position to capitalize on both the low and high hands."
+            },
+            {
+                "scenario": "You are holding 10♠ 10♦ J♠ Q♦ K♠, and a player raises.",
+                "answer": "The correct answer is fold, because you have no low hand potential and your high hand is only a pair of tens. Without any chance for a low hand or a strong high hand, you should fold and avoid losing more chips."
+            },
+            {
+                "scenario": "You are holding A♦ 3♠ 7♣ 8♦ Q♠, and there is no raise.",
+                "answer": "The correct answer is check, because you have a weak low hand (A-3-7), and the high hand isn't much better. You're in a marginal position, so check and see if you can improve before committing further."
+            },
+            {
+                "scenario": "You are holding A♠ 2♣ 3♦ 4♠ 8♦, and no one has raised yet.",
+                "answer": "The correct answer is raise, because you have the nuts for the low hand (A-2-3-4-8), and you could also draw to a straight or flush for the high hand. Maximize the value of your strong low hand and force out weaker hands."
+            },
+            {
+                "scenario": "You have Q♦ Q♠ 10♠ 7♣ 2♠, and a player raises.",
+                "answer": "The correct answer is fold, because you have no strong low hand and only a pair of queens for a high hand. It's not strong enough to play against a raise, so fold and wait for a better opportunity."
+            },
+            {
+                "scenario": "You have A♠ 3♠ 5♣ 9♦ J♠, and no one has raised.",
+                "answer": "The correct answer is check, because while you have a potential low hand, your high hand is weak. Check and wait to see if the situation improves before committing any chips."
+            },
+            {
+                "scenario": "You have A♠ 2♣ 4♠ 5♣ 7♦, and you're in the early position.",
+                "answer": "The correct answer is raise, because you have a very strong low hand with A-2-4-5-7 and potential to make a straight. You should build the pot early while you have a good chance to win with both the high and low hands."
+            },
+            {
+                "scenario": "You hold J♠ J♣ 8♠ 5♦ 2♠, and a player raises before you.",
+                "answer": "The correct answer is fold, because your high hand is a weak pair of jacks, and you don't have any good low hand possibilities. There's not much potential to win this hand, so folding is the best option."
+            },
+            {
+                "scenario": "You hold A♣ 4♠ 5♠ 8♦ 10♠, and no one has raised the pot.",
+                "answer": "The correct answer is check, because although you have a decent low draw, your high hand isn't strong enough to bet yet. You're in a neutral spot, so check and see if you can improve your hand on the next round."
+            }
+        ],
+        "choices": [
+            "Fold",
+            "Raise",
+            "Check"
+        ]
+    }
+]

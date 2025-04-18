@@ -34,7 +34,9 @@ export default function MobileNavComponent() {
                             <li><Link to={"/#variants"}>Variants</Link></li>
                             <li><Link to={"/dictionary"}>Dictionary</Link></li>
                             <li>
-                                <button id="practiceBtn">Practice</button>
+                                <Link to={"/choosegame"}>
+                                    <button id="practiceBtn">Practice</button>
+                                </Link>
                             </li>
                         </ul>
                     </div>

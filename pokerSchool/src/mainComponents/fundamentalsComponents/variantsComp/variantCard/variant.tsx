@@ -6,9 +6,10 @@ import useScrollToSection from '../../../../hooks/useScrollSection'
 
 interface VariantCardProps {
     search: string
+    btnType: "learn" | "practice"
 }
 
-export default function VariantCard({ search }: VariantCardProps) {
+export default function VariantCard({ search, btnType }: VariantCardProps) {
     const { filteredVariants, isLoading, isError, error } = useSearchVariants(search)
     useScrollToSection()
 
@@ -26,9 +27,14 @@ export default function VariantCard({ search }: VariantCardProps) {
                         <div className="variantInfoBox">
                             <h4 className="variantHeading">{variant.heading}</h4>
                             <p className="variantInfo"> {variant.info}</p>
-                            <Link to={`/variant/${variant.id}/#variantRulesLogo`}>
-                                <button className="variantLearn">Learn</button>
-                            </Link>
+                            {btnType === "learn" ?
+                                <Link to={`/variant/${variant.id}/#variantRulesLogo`}>
+                                    <button className="variantLearn">Learn</button>
+                                </Link> : <Link to={`/scenario/${variant.id}`}>
+                                    <button className="variantPractice">Practice</button>
+                                </Link>
+
+                            }
                         </div>
                     </div>
                 </div>

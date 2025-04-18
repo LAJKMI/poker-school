@@ -74,11 +74,16 @@
             color: $secondaryColoredText;
         }
 
-        .variantLearn {
+        .variantLearn,
+        .variantPractice {
             @include button($learnBtnColor);
             font-size: .875rem;
             padding: .3125rem .625rem;
             margin-top: .625rem;
+        }
+
+        .variantPractice {
+            background: $practiceBtnColor;
         }
     }
 }

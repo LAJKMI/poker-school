@@ -9,6 +9,8 @@ import NotFoundPage from './notFoundPage/NotFoundPage.tsx'
 import VariantRules from './variantRules/VariantRules.tsx'
 import Dictionary from './dictionaryPage/Dictionary.tsx'
 import QuizzComp from './quizz/QuizzComp.tsx'
+import Scenario from './scenarioQuizz/Scenario.tsx'
+import ChooseGame from './scenarioQuizz/chooseGame/ChooseGame.tsx'
 
 const queryClient = new QueryClient()
 const router = createBrowserRouter([
@@ -16,6 +18,8 @@ const router = createBrowserRouter([
   { path: "/variant/:id", element: <VariantRules /> },
   { path: "/dictionary", element: <Dictionary /> },
   { path: "/quizz/:id", element: <QuizzComp /> },
+  { path: "/choosegame", element: <ChooseGame /> },
+  { path: "/scenario/:id", element: <Scenario /> },
   { path: "*", element: <NotFoundPage /> }
 ])
 

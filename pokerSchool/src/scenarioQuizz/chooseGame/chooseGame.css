@@ -1,0 +1,10 @@
+#chooseGameMain {
+  background-color: #411C1C;
+  background-image: url("/bckgSvgs/variantPatternGold.png");
+  background-repeat: repeat;
+}
+#chooseGameMain h1 {
+  text-align: center;
+  font-size: 28px;
+  padding: 100px 0px 50px 0px;
+}/*# sourceMappingURL=chooseGame.css.map */

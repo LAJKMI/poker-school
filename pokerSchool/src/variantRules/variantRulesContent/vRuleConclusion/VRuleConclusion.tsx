@@ -17,7 +17,9 @@ export default function VRuleConclusion({ conclusion }: ConclusionProps) {
                 <Link to={`/quizz/${id}`}>
                     <button className="quizz">Take The Quizz</button>
                 </Link>
-                <button className="practice">Practice</button>
+                <Link to={`/scenario/${id}`}>
+                    <button className="practice">Practice</button>
+                </Link>
             </div>
         </section>
     )

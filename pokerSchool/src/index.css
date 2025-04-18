@@ -12,4 +12,6 @@
 
 body {
     background-color: #121212;
+    background-image: url("/bckgSvgs/variantPatternWhite.png");
+    background-repeat: repeat;
 }

@@ -1,7 +1,10 @@
-.variants {
-  height: 70dvh;
+.learnVariants {
   border-top: 0.0625rem solid #F4F4F4;
   border-bottom: 0.0625rem solid #F4F4F4;
+}
+
+.variants {
+  height: 70dvh;
   padding: 0rem 0.625rem;
   display: flex;
   flex-direction: column;

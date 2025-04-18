@@ -56,7 +56,8 @@
 .variantBox .variant p .secondaryHighLight {
   color: #FFD700;
 }
-.variantBox .variant .variantLearn {
+.variantBox .variant .variantLearn,
+.variantBox .variant .variantPractice {
   background: linear-gradient(330deg, rgb(49, 150, 26) 0%, rgb(49, 144, 5) 49%, rgb(80, 155, 33) 100%);
   border: none;
   padding: 0.625rem 1.25rem;
@@ -69,4 +70,7 @@
   font-size: 0.875rem;
   padding: 0.3125rem 0.625rem;
   margin-top: 0.625rem;
+}
+.variantBox .variant .variantPractice {
+  background: linear-gradient(330deg, rgb(185, 62, 9) 0%, rgb(215, 81, 32) 49%, rgb(243, 101, 49) 100%);
 }/*# sourceMappingURL=variant.css.map */
