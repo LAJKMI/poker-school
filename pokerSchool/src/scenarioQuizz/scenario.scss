@@ -1,0 +1,71 @@
+@use '../assets/baseStyles' as *;
+
+#quizzHeader {
+    @include flexCenter();
+    justify-content: space-between;
+    padding: 20px;
+
+    img {
+        width: 4rem;
+    }
+
+    button {
+        @include button($requestBtn);
+        font-size: .875rem;
+        padding: .3125rem .625rem;
+        border-radius: .3125rem;
+    }
+}
+
+
+
+.pokerTableContainer {
+    @include flexCenter();
+
+    #pokerTable {
+        width: 280px;
+    }
+}
+
+.scenarioContainer {
+    .scenarioBox {
+        @include flexCenter(column);
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.478);
+        margin: 20px;
+
+        .scenario {
+            text-align: center;
+            margin-top: 5px
+        }
+    }
+
+    .choicesBox {
+        @include flexCenter();
+        gap: 5px;
+
+        .choice {
+            @include flexCenter();
+            background-color: rgba(0, 0, 0, 0.478);
+            padding: 5px 10px;
+
+            label {
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.btnBox {
+    @include flexCenter();
+    justify-content: end;
+    margin: 10px;
+
+    .nextScenario {
+        @include button($learnBtnColor);
+        font-size: .875rem;
+        padding: .3125rem .625rem;
+        border-radius: .3125rem;
+        margin: 10px
+    }
+}

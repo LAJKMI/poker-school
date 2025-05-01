@@ -1,0 +1,91 @@
+#quizzHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+#quizzHeader img {
+  width: 4rem;
+}
+#quizzHeader button {
+  background: linear-gradient(330deg, rgb(9, 100, 185) 0%, rgb(32, 96, 215) 49%, rgb(49, 127, 243) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+}
+
+.pokerTableContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.pokerTableContainer #pokerTable {
+  width: 280px;
+}
+
+.scenarioContainer .scenarioBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.478);
+  margin: 20px;
+}
+.scenarioContainer .scenarioBox .scenario {
+  text-align: center;
+  margin-top: 5px;
+}
+.scenarioContainer .choicesBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.scenarioContainer .choicesBox .choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.478);
+  padding: 5px 10px;
+}
+.scenarioContainer .choicesBox .choice label {
+  margin-left: 5px;
+}
+
+.btnBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: end;
+  margin: 10px;
+}
+.btnBox .nextScenario {
+  background: linear-gradient(330deg, rgb(49, 150, 26) 0%, rgb(49, 144, 5) 49%, rgb(80, 155, 33) 100%);
+  border: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.25rem;
+  color: #fff;
+  box-shadow: inset 0px 5px 8px rgba(253, 253, 253, 0.2);
+  border-radius: 0.375rem;
+  letter-spacing: 0rem;
+  cursor: pointer;
+  font-size: 0.875rem;
+  padding: 0.3125rem 0.625rem;
+  border-radius: 0.3125rem;
+  margin: 10px;
+}/*# sourceMappingURL=scenario.css.map */
